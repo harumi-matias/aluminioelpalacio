@@ -1,0 +1,24 @@
+{
+    "name": "Candy Shop",
+    "short_name":"Candy-Shop",
+    "description": "Aplicación PWA Candy-Shop",
+    "background_color":"#ad8fff",
+    "theme_color":"#ea3981",
+    "orientation":"portrait",
+    "display":"fullscreen",
+    "start_url": "./index.html?utm_source=web_app_manifest",  
+    "lang":"es-MX",
+    "icons": [
+        {
+            "src": "./images/192x192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "./images/512.png",
+            "type": "image/png",
+            "sizes": "512x512",
+            "purpose": "maskable"
+        }
+    ]
+}

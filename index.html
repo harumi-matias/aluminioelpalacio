@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Carga de estilos -->
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- CSS de Font Awesome -->
+    <link rel="stylesheet" href="./css/all.min.css">
+    <!-- Fuente de google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<!-- <link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,400;0,600;0,700;1,600;1,700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,900;1,900&display=swap" rel="stylesheet"> -->
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,700;1,300&display=swap" rel="stylesheet">
+    <!-- Plantilla normalize -->
+    <link rel="stylesheet" href="./css/normalize.css">
+    <!-- Icono de navegador -->
+    <link rel="shortcut icon" type="image/png" href="./images/192x192.png">
+    <!-- Color de la aplicación -->
+    <meta name="theme-color" content="#ad8fff">
+    <!-- Optimización para movil -->
+    <meta name="MobileOptimized" content="width">  
+    <meta name="HandheldFriendly" content="true">
+    <!-- Meta etiquetas PWA para Apple -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"> 
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png">
+    <link rel="apple-touch-startup-image" href="./images/apple-touch-icon.png">
+    <!-- Configuración General PWA -->
+    <!-- <link rel="manifest" href="/manifest.json"> -->
+    <link rel="manifest" href="manifest.webmanifest">
+    <!-- CSS Swiper -->
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+    <!-- CSS leaflet -->
+    <link rel="stylesheet" href="./css/leaflet.css">
+    <!-- CSS personalizados -->
+    <link rel="stylesheet" href="./css/estilos.css">
+    <title>Aluminio el Palacio</title>
+</head>
+<body>
+
+    <header>
+        <section id="datos-generales" class="d-md-block">
+            <div class="container-fluid bg-secondary">
+                        <nav id="menu-navegacion" class="row navbar navbar-dark navbar-expand-lg">
+                            <div class="container-fluid bg-secondary">
+                                <a class="navbar-brand" href="index.html"> <img src="./images/logo.png" alt="Logo" width="150" height="auto" ></a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#contenido"><span class="navbar-toggler-icon"></span>
+                            </button> 
+                            <div id="contenido" class="collapse navbar-collapse ms-md-auto">
+                                <ul class="navbar-nav m-auto">
+                                    <li class="nav-item"><a class="nav-link" href="index.html">Nosotros</a></li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                          Productos
+                                        </a>
+                                        <ul class="dropdown-menu bg-secondary" aria-labelledby="navbarScrollingDropdown">
+                                          <li><a class="dropdown-item" href="doblefuerte.html">Línea Doble Fuerte</a></li>
+                                          <li><a class="dropdown-item" href="triplefuerte.html">Línea Triple Fuerte</a></li>
+                                          <li><a class="dropdown-item" href="baterias.html">Baterías</a></li>
+                                          <li><a class="dropdown-item" href="juegos.html">Juegos</a></li>
+                                        </ul>
+                                      </li>
+                                    <li class="nav-item"><a class="nav-link" href="#promo">Promociones</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#pie">Contacto</a></li>
+                                </ul>                
+                            </div> 
+                    </div>
+                </div>
+            </div>
+        </section>
+
+         <!-- Swiper -->
+          <div class="swiper-container mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide" style="background-image: url(./images/1.jpg);"></div>
+              <div class="swiper-slide" style="background-image: url(./images/1_2.jpg);"></div>
+              <div class="swiper-slide" style="background-image: url(./images/1.jpg);"></div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+    </header>
+    
+    <main class="container">
+        <h1 class="text-center fw-bold">Aluminio el Palacio, calidad que nos respalda</h1>
+        <div class="col-12">
+            <div class="row">
+                <p style="text-align: center; font-size: 1.8rem; margin-top: 2rem; margin-bottom: 3rem;" >Somos una empresa mexicana dedicada a la fabricación y comercialización de artículos para cocina de aluminio de alta calidad, contamos con más de 20 años en el mercado satisfaciendo las necesidades de nuestros clientes, nuestra calidad nos distingue y nos ha llevado por toda la Republica Mexicana, parte de Centroamérica y Estados Unidos.
+                </br>
+                Fabricamos artículos de la mas alta calidad, siempre innovando, siempre a la vanguardia y siempre adaptándonos a la necesidad de cada uno de nuestros clientes.</p>
+                <div class="col-12 col-lg-6 col-md-12 col-sm-12">
+                    <div class="razon card h-100">                                      
+                        <div class="card-body text-center d-grid"> 
+                            <h3 class="card-title text-secondary" style="font-weight: bold;">Misión</h3>
+                            <div class="card-text">Proporcionar a nuestros clientes soluciones inmediatas con productos de aluminio de calidad total, superando sus expectativas de inmediato, a través de un equipo de trabajo comprometido a mejorar día a día; y de está forma permanecer y alcanzar mayor presencia en el medio.   
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 col-md-12 col-sm-12">
+                    <div class="razon card h-100">                                      
+                        <div class="card-body text-center d-grid"> 
+                            <h3 class="card-title text-secondary" style="font-weight: bold" >Visión</h3>
+                            <div class="card-text"> Ser una empresa reconocida en el mercado nacional e internacional, basándonos en la mejora continua, en nuestros procesos de fabricación logística y atención al cliente. Siempre con la mentalidad de continuar innovando y demostrando que la calidad es la que nos distingue de los demás
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>  
+
+    <section style="background-color: rgba(128, 128, 128, 0.116);">
+        <h2 class="text-center fw-bold" style="padding-top: 2rem; margin-top: 5rem;">Nuestros Valores</h2>
+        <img src="./images/valoresgrs.png" class="img-fluid container-fluid" style="max-height: auto;" alt="valores">
+    </section>
+    <section class="container">
+        <h2 class="text-center fw-bold" style="margin-top: 4rem; margin-bottom: 4rem;">¿Por qué elegir nuestros productos?</h2>
+        <div class="col-12">
+            <div class="row container">
+                <div class="col-12 col-lg-4 col-md-6 col-sm-12">
+                    <div class="razon card h-100">                                      
+                        <div class="card-body text-center d-grid artesanal" style="margin-top: 2rem;"> 
+                            <h3 class="card-title text-secondary" style="font-weight:bold">Artesanal</h3>
+                            <div class="card-text">Siendo dueños del proceso podemos diseñar cualquier tipo de olla a las necesidades de nuestro cliente con diferentes grosores, medidas y formas. 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 col-md-6 col-sm-12">
+                    <div class="razon card h-100">                                      
+                        <div class="card-body text-center d-grid hipo" style="margin-top: 2rem;"> 
+                            <h3 class="card-title text-secondary" style="font-weight: bold">Hipoalergénico</h3>
+                            <div class="card-text">Nuestro proceso es considerado artesanal utilizando una aleación más pura en aluminio, no contienen otros elementos en su composición química. 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 col-md-6 col-sm-12">
+                    <div class="razon card h-100">                    
+                        <div class="tarjetas card-body text-center d-grid term" style="margin-top: 2rem;">
+                            <h3 class="card-title text-secondary" style="font-weight: bold">Térmico</h3>
+                            <div class="card-text">El aluminio tiene una conductividad que permite alcanzar la temperatura ideal en menos tiempo lo que reduce el consumo de combustible. </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 col-md-6 col-sm-12">
+                    <div class="razon card h-100">                    
+                        <div class="card-body text-center d-grid lige" style="margin-top: 2rem;">
+                            <h3 class="card-title text-secondary" style="font-weight: bold">Ligero</h3>
+                            <div class="card-text">Su densidad es mucho menor en comparación al acero (65% menos aproximadamente), lo que permite tener mayor facilidad al mover las ollas.</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 col-md-6 col-sm-12">
+                    <div class="razon card h-100">                    
+                        <div class="card-body text-center d-grid res" style="margin-top: 2rem;">
+                            <h3 class="card-title text-secondary" style="font-weight: bold">Resistente</h3>
+                            <div class="card-text">El aluminio es una excelente opción para soportar cualquier uso que se le brinde, para uso rudo se puede fabricar en distintos espesores.</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 col-md-6 col-sm-12 align-content-between">
+                    <div class="razon card h-100">                    
+                        <div class="card-body text-center d-grid mal" style="margin-top: 2rem;">
+                            <h3 class="card-title text-secondary" style="font-weight: bold">Maleable</h3>
+                            <div class="card-text">Esta capacidad de deformación que tiene el aluminio permite fabricar una gran variedad de tamaños y formas. </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>    
+    </section> 
+         <!-- Swiper3 -->
+    <div id="promo" class="swiper mySwiper3" style="margin: 3rem;">
+        <h2 class="text-center fw-bold" style="margin-top: 3rem; margin-bottom: 3rem;">Nuestras Promociones</h2>
+        <div class="swiper-wrapper">
+          <div class="swiper-slide d-flex justify-content-center align-items-center">
+            <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+          </div>
+          <div class="swiper-slide d-flex justify-content-center align-items-center">
+            <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+          </div>
+          <div class="swiper-slide d-flex justify-content-center align-items-center">
+            <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+    <footer id="pie" class="small bg-secondary text-success">
+        <div class="container py-3 py-sm-5">
+            <div class="row">
+                <div class="col-12 col-sm-6 col-md-4">
+                    <h6>Enlaces rápidos</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html">Nosotros</a></li>
+                        <li><a href="doblefuerte.html">Línea Doble Fuerte</a></li>
+                        <li><a href="triplefuerte.html">Línea Triple Fuerte</a></li>
+                        <li><a href="baterias.html">Baterías</a></li>
+                        <li><a href="juegos.html">Juegos</a></li>
+                        <li><a href="#promo">Promociones</a></li>                
+                        <li><a href="#pie">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4">
+                    <h6>Teléfonos</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="tel:+5522078111"><i class="fas fa-fw fa-phone"></i> (55) 2207 8111</a></li>
+                        <li><a href="tel:+5531882910"><i class="fas fa-fw fa-phone"></i> (55) 3188 2910</a></li>
+                        <li><a href="https://www.facebook.com/www.aluminioelpalacio.com.mx/"><i class="fab fa-facebook-f"></i> Facebook</a></li>
+                        <li><a href="mailto:contacto@aluminioelpalacio.com.mx"><i class="fas fa-fw fa-envelope"></i> Contáctanos</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3">
+                    <h6>Ubicación</h6>
+                    <address>
+                        <strong>Calle Cerro del Chiquihuite # 16</strong><br>Manzana 144, C.P.07110, Col. Lomas de Chapultepec, Gustavo a Madero, Ciudad de México<br>
+                    </address>
+                </div>
+            </div>
+            <ul class="list-inline mt-2 mb-0 text-center">
+                <li class="list-inline-item">&copy; 2021 </li>
+                <li class="list-inline-item">All rights reserved.</li>
+            </ul>
+        </div>
+    </footer>
+    <!-- Carga de scripts JS -->
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>      
+    <script src="./js/anime.min.js"></script>
+    <script src="./js/swiper-bundle.min.js"></script>
+    <script src="./js/leaflet.js"></script>
+    <script src="./js/mis-scripts.js"></script>  
+</body>
+</html>

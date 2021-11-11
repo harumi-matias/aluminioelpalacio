@@ -135,6 +135,10 @@ h4 {
   background-color: #00246f;
 }
 
+.dropdown-item {
+  background-color: rgba(255, 255, 255, 0.192);
+}
+
 /*=========================
  6. MAPA UBICACIONES
  ==========================*/

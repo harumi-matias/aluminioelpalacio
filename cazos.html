@@ -35,9 +35,10 @@
     <link rel="stylesheet" href="./css/leaflet.css">
     <!-- CSS personalizados -->
     <link rel="stylesheet" href="./css/estilos.css">
-    <title>Recipientes - Cazos Doble Fuerte</title>
+    <title>Recipientes Doble Fuerte</title>
 </head>
 <body>
+  <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
     <header>
       <section id="datos-generales" class="d-md-block">
         <div class="container-fluid bg-secondary">
@@ -108,11 +109,11 @@
     <p class="container" style="text-align: center; font-size: 2rem; margin-top: 2rem; margin-bottom: 3rem; padding: 1.2rem;">Nuestros productos de la línea doble fuerte son ideales para uso doméstico ya que al ser un material muy ligero se puede manejar con mayor facilidad asegurando una mejor cocción en todos tus alimentos en menor tiempo.
     </p>
   </section>
-<!-- seccion fiambreras -->
-<h2 id="fiambreras" class="text-center fw-bold" style="margin-top: 2rem;">Cazos</h2>
+<!-- seccion cazos -->
+<h2 id="cazos" class="text-center fw-bold" style="margin-top: 2rem;">Cazos</h2>
 <!-- Imagenes -->
-<main class="container"></main>
-      <div class="col-12 col-lg-12 col-md-12 col-sm-12">
+<main class="container-fluid"></main>
+      <div class="col-12 col-lg-12">
           <div class="row justify-content-center">
               <!-- Inicio imagenesCazos -->            
               <div class="card" style="width: 25rem; margin: 1.3rem;">
@@ -212,7 +213,7 @@
               <h4 class="card-title">Cazo #20 con Tapa</h4>
             </div>
               <p class="card-text">Diametro: 20cm </br> Altura: 10cm </br> Capacidad: 3 litros</p>
-        </div>
+        </div> 
         <!-- Siguiente -->
         <div class="card" style="width: 25rem; margin: 1.3rem;">
           <div id="caz4" class="carousel slide carousel-dark" data-bs-ride="false" data-bs-interval="false">
@@ -246,6 +247,9 @@
           </div>
             <p class="card-text">Diametro: 18cm </br> Altura: 9cm </br> Capacidad: 2 litros</p>
       </div>
+    </div> 
+    <div class="col-12 col-lg-12">
+      <div class="row justify-content-center">
       <!-- Siguiente -->
       <div class="card" style="width: 25rem; margin: 1.3rem;">
         <div id="caz5" class="carousel slide carousel-dark" data-bs-ride="false" data-bs-interval="false">
@@ -378,6 +382,9 @@
   </div>
     <p class="card-text">Diametro: --cm </br> Altura: --cm </br> Capacidad: 90 litros</p>
 </div>
+</div>
+<div class="col-12 col-lg-12">
+  <div class="row justify-content-center">
 <!-- Siguiente -->
 <div class="card" style="width: 25rem; margin: 1.3rem;">
   <div id="caz9" class="carousel slide carousel-dark" data-bs-ride="false" data-bs-interval="false">
@@ -507,7 +514,11 @@
     <h4 class="card-title">Cazo Estibable Grande sin Parrilla</h4>
   </div>
     <p class="card-text">Diametro: -- </br> Altura: -- </br> Capacidad: 90 litros</p>
-</div><!-- Siguiente -->
+</div>
+</div>
+<div class="col-12 col-lg-12">
+  <div class="row justify-content-center">
+<!-- Siguiente -->
 <div class="card" style="width: 25rem; margin: 1.3rem;">
   <div id="caz13" class="carousel slide carousel-dark" data-bs-ride="false" data-bs-interval="false">
   <div class="carousel-indicators">
@@ -573,7 +584,8 @@
     <p class="card-text">Diametro: -- </br> Altura: -- </br> Capacidad: 34 litros</p>
 </div>
         </div>
-      </div>  
+      </div>
+</div>  
 </main>  
 <!-- paginacion -->
   <!-- <nav aria-label="Page navigation example">
@@ -626,15 +638,6 @@
                 <li class="list-inline-item">All rights reserved.</li>
             </ul>
         </div>
-           <!-- Botontop -->
-  <div>
-    <a class="ir-arriba"  javascript:void(0) title="Volver arriba">
-      <span class="fa-stack">
-        <i class="fa fa-circle fa-stack-2x"></i>
-        <i class="fa fa-arrow-up fa-stack-1x fa-inverse"></i>
-      </span>
-    </a>
-  </div> 
     </footer>
     
     <!-- Carga de scripts JS -->
@@ -644,5 +647,26 @@
     <script src="./js/swiper-bundle.min.js"></script>
     <script src="./js/leaflet.js"></script>
     <script src="./js/mis-scripts.js"></script>  
+    <script>
+      //Get the button
+      var mybutton = document.getElementById("myBtn");
+      
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function() {scrollFunction()};
+      
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+      
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+      </script>
 </body>
 </html>

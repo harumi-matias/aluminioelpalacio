@@ -139,12 +139,60 @@ h6{
     font-size: 1.8rem;
 }
 
-.dropdown-menu li a:hover{
+#datos-generales .dropdown-menu li a:hover{
     background-color: $secundario;
 }
-.dropdown-item{
-    background-color:rgba(255, 255, 255, 0.192),
+#datos-generales .dropdown-item{
+    background-color:rgba(255, 255, 255, 0.192);
 }
+
+
+#menu_recipientes .dropdown-item a{ 
+    color: $secundario;
+}
+
+
+#menu_recipientes .dropdown-menu a{
+   width: 18rem;
+   color: white;
+}
+
+#menu_recipientes .dropdown-menu{
+    background-color:#5068a5;
+    border-radius: 1rem;
+ }
+
+ #menu_recipientes .dropdown-menu li a:hover {
+    background-color:$secundario;
+    opacity: .5;
+ } 
+
+ 
+ #menu_recipientes .dropdown-menu .active{
+    background-color:$secundario;
+    opacity: .5;
+ } 
+
+ .flotante {
+    display:block;
+        position:sticky;
+        bottom:320px;
+        right:0px;
+}
+
+.ir-arriba{
+    display:none;
+    background-repeat:no-repeat;
+    font-size:20px;
+    color:black;
+    cursor:pointer;
+    position:fixed;
+    bottom:10px;
+    right:10px;
+    z-index:2;
+  }
+
+
 
 /*=========================
  7. ESTILOS SECCIONES
@@ -193,6 +241,7 @@ h6{
     font-size: 2rem;
     margin: 1rem;
 }
+
 
 
 

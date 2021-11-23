@@ -6,17 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Carga de estilos -->
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- CSS de Font Awesome -->
-    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
     <!-- Fuente de google -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,700;1,300&display=swap" rel="stylesheet">
     <!-- Plantilla normalize -->
-    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="css/normalize.css">
     <!-- Icono de navegador -->
-    <link rel="shortcut icon" type="image/png" href="./images/192x192.png">
+    <link rel="shortcut icon" type="image/png" href="images/192x192.png">
     <!-- Color de la aplicación -->
     <meta name="theme-color" content="#ad8fff">
     <!-- Optimización para movil -->
@@ -24,17 +24,15 @@
     <meta name="HandheldFriendly" content="true">
     <!-- Meta etiquetas PWA para Apple -->
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"> 
-    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png">
-    <link rel="apple-touch-startup-image" href="./images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-startup-image" href="images/apple-touch-icon.png">
     <!-- Configuración General PWA -->
     <!-- <link rel="manifest" href="/manifest.json"> -->
     <link rel="manifest" href="manifest.webmanifest">
     <!-- CSS Swiper -->
-    <link rel="stylesheet" href="./css/swiper-bundle.min.css">
-    <!-- CSS leaflet -->
-    <link rel="stylesheet" href="./css/leaflet.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
     <!-- CSS personalizados -->
-    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="css/estilos.css">
     <title>Recipientes - Doble Fuerte</title>
 </head>
 <body>
@@ -44,7 +42,7 @@
         <div class="container-fluid bg-secondary">
                     <nav id="menu-navegacion" class="row navbar navbar-dark navbar-expand-lg">
                         <div class="container-fluid bg-secondary">
-                            <a class="navbar-brand" href="index.html"> <img src="./images/logo.png" alt="Logo" width="150" height="auto" ></a>
+                            <a class="navbar-brand" href="index.html"> <img src="images/logo.png" alt="Logo" width="150" height="auto" ></a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#contenido"><span class="navbar-toggler-icon"></span>
                         </button> 
                         <div id="contenido" class="collapse navbar-collapse ms-md-auto">
@@ -99,7 +97,7 @@
     <section>
       <div class="swiper-container mySwiper">
         <div class="swiper-wrapper">
-          <div class="swiper-slide" style="background-image: url(./images/banner_arroceras_.jpg); background-position: center; background-size: cover; background-repeat: no-repeat;"></div>
+          <div class="swiper-slide" style="background-image: url(images/banner_arroceras_.jpg); background-position: center; background-size: cover; background-repeat: no-repeat;"></div>
         </div>
       </div>
     </section>
@@ -129,13 +127,13 @@
 </section>
 <!-- fin botones -->
 <!-- seccion fiambreras -->
-<h2 id="fiambreras" class="text-center fw-bold" style="margin-top: 2rem;">Fiambreras</h2>
-<!-- Imagenes -->
-<main class="container"></main>
-      <div class="col-12 col-lg-12 col-md-12 col-sm-12">
-          <div class="row justify-content-center">
+<main class="container-fluid">
+  <h2 id="fiambreras" class="text-center fw-bold" style="margin-top: 2rem;">Fiambrera</h2>
+          <!-- Imagenes -->
+    <div class="row justify-content-center">
+            <!-- Inicio fiambreras 1.1 -->  
+          <div class="card col-12 col-sm-6 col-lg-3" style="width: 25rem; margin: 1.3rem;"> 
               <!-- Inicio imagenesFiambreras -->            
-              <div class="card" style="width: 25rem; margin: 1.3rem;">
                 <div id="fia1" class="carousel slide carousel-dark" data-bs-ride="false" data-bs-interval="false">
                 <div class="carousel-indicators">
                   <button type="button" data-bs-target="#fia1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -144,13 +142,13 @@
                 </div>
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img src="./images/fiambreras/fiambreras24_fnt.jpg" class="d-block w-100" alt="Fiambrera#24">
+                    <img src="images/fiambreras/fiambreras24_fnt.jpg" class="d-block w-100" alt="Fiambrera#24">
                   </div>
                   <div class="carousel-item">
-                    <img src="./images/fiambreras/fiambreras24_iso.jpg" class="d-block w-100" alt="Fiambrera#24">
+                    <img src="images/fiambreras/fiambreras24_iso.jpg" class="d-block w-100" alt="Fiambrera#24">
                   </div>
                   <div class="carousel-item">
-                    <img src="./images/fiambreras/fiambreras24_det.jpg" class="d-block w-100" alt="Fiambrera#24">
+                    <img src="images/fiambreras/fiambreras24_det.jpg" class="d-block w-100" alt="Fiambrera#24">
                   </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#fia1" data-bs-slide="prev">
@@ -164,11 +162,11 @@
               </div>
                 <div class="card-body">
                   <h4 class="card-title">Fiambrera #24</h4>
+                  <p class="card-text">Diametro: 24cm </br> Altura: 8cm </br> Capacidad: 3 litros</p>
                 </div>
-                  <p class="card-text">Diametro: 24cm </br> Altura: 8cm </br> Capacidad:3 litros</p>
             </div>
             <!-- siguiente -->
-            <div class="card" style="width: 25rem; margin: 1.3rem;">
+            <div class="card col-12 col-sm-6 col-lg-3" style="width: 25rem; margin: 1.3rem;">
               <div id="fia2" class="carousel slide carousel-dark" data-bs-ride="false" data-bs-interval="false">
               <div class="carousel-indicators">
                 <button type="button" data-bs-target="#fia2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -177,13 +175,13 @@
               </div>
               <div class="carousel-inner">
                 <div class="carousel-item active">
-                  <img src="./images/fiambreras/fiambreras22_fnt.jpg" class="d-block w-100" alt="Fiambrera#22">
+                  <img src="images/fiambreras/fiambreras22_fnt.jpg" class="d-block w-100" alt="Fiambrera#22">
                 </div>
                 <div class="carousel-item">
-                  <img src="./images/fiambreras/fiambreras22_iso.jpg"" class="d-block w-100" alt="Fiambrera#22">
+                  <img src="images/fiambreras/fiambreras22_iso.jpg" class="d-block w-100" alt="Fiambrera#22">
                 </div>
                 <div class="carousel-item">
-                  <img src="./images/fiambreras/fiambreras22_det.jpg"" class="d-block w-100" alt="Fiambrera#22">
+                  <img src="images/fiambreras/fiambreras22_det.jpg" class="d-block w-100" alt="Fiambrera#22">
                 </div>
               </div>
               <button class="carousel-control-prev" type="button" data-bs-target="#fia2" data-bs-slide="prev">
@@ -201,7 +199,7 @@
                 <p class="card-text">Diametro: 22cm </br> Altura: 7cm </br> Capacidad: 2.5 litros</p>
           </div>
         <!-- siguiente -->
-          <div class="card" style="width: 25rem; margin: 1.3rem;">
+          <div class="card col-12 col-sm-6 col-lg-3" style="width: 25rem; margin: 1.3rem;">
             <div id="fia3" class="carousel slide carousel-dark" data-bs-ride="false" data-bs-interval="false">
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#fia3" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -210,13 +208,13 @@
             </div>
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./images/fiambreras/fiambreras18_fnt.jpg" class="d-block w-100" alt="Fiambrera#18">
+                <img src="images/fiambreras/fiambreras18_fnt.jpg" class="d-block w-100" alt="Fiambrera#18">
               </div>
               <div class="carousel-item">
-                <img src="./images/fiambreras/fiambreras18_iso.jpg" class="d-block w-100" alt="Fiambrera#18">
+                <img src="images/fiambreras/fiambreras18_iso.jpg" class="d-block w-100" alt="Fiambrera#18">
               </div>
               <div class="carousel-item">
-                <img src="./images/fiambreras/fiambreras18_det.jpg" class="d-block w-100" alt="Fiambrera#18">
+                <img src="images/fiambreras/fiambreras18_det.jpg" class="d-block w-100" alt="Fiambrera#18">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#fia3" data-bs-slide="prev">
@@ -230,13 +228,15 @@
           </div>
             <div class="card-body">
               <h4 class="card-title">Fiambrera #18</h4>
-            </div>
               <p class="card-text">Diametro: 18cm </br> Altura: 7cm </br> Capacidad: 1.5 litros</p>
+            </div>
+          </div>
         </div>
 <!-- seccion hielera -->
         <h2 id="hielera" class="text-center fw-bold" style="margin-top: 2rem;">Hielera</h2>
         <!-- Siguiente -->
-        <div class="card" style="width: 25rem; margin: 1.3rem;">
+        <div class="row justify-content-center">
+        <div class="card col-12" style="width: 25rem; margin: 1.3rem;">
           <div id="hie1" class="carousel slide carousel-dark" data-bs-ride="false" data-bs-interval="false">
           <div class="carousel-indicators">
             <button type="button" data-bs-target="#hie1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -245,13 +245,13 @@
           </div>
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="./images/hieleras/hielera_fnt.jpg" class="d-block w-100" alt="Hielera">
+              <img src="images/hieleras/hielera_fnt.jpg" class="d-block w-100" alt="Hielera">
             </div>
             <div class="carousel-item">
-              <img src="./images/hieleras/hielera_iso.jpg" class="d-block w-100" alt="Hielera">
+              <img src="images/hieleras/hielera_iso.jpg" class="d-block w-100" alt="Hielera">
             </div>
             <div class="carousel-item">
-              <img src="./images/hieleras/hielera_lat.jpg" class="d-block w-100" alt="Hielera">
+              <img src="images/hieleras/hielera_lat.jpg" class="d-block w-100" alt="Hielera">
             </div>
           </div>
           <button class="carousel-control-prev" type="button" data-bs-target="#hie1" data-bs-slide="prev">
@@ -265,13 +265,15 @@
         </div>
           <div class="card-body">
             <h4 class="card-title">Hielera #18</h4>
-          </div>
             <p class="card-text">Diametro: 18cm </br> Altura: 11.5cm </br> Capacidad: --</p>
+          </div>
+        </div>
       </div>
       <!-- seccion palomera -->
       <h2 id="palomera" class="text-center fw-bold" style="margin-top: 2rem;">Palomera</h2>
       <!-- Siguiente -->
-      <div class="card" style="width: 25rem; margin: 1.3rem;">
+      <div class="row justify-content-center">
+      <div class="card col-12" style="width: 25rem; margin: 1.3rem;">
         <div id="pal1" class="carousel slide carousel-dark" data-bs-ride="false" data-bs-interval="false">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#pal1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -280,13 +282,13 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="./images/jpg" class="d-block w-100" alt="Palomera#22">
+            <img src="images/jpg" class="d-block w-100" alt="Palomera#22">
           </div>
           <div class="carousel-item">
-            <img src="./images/.jpg" class="d-block w-100" alt="Palomera#22">
+            <img src="images/.jpg" class="d-block w-100" alt="Palomera#22">
           </div>
           <div class="carousel-item">
-            <img src="./images/.jpg" class="d-block w-100" alt="Palomera#22">
+            <img src="images/.jpg" class="d-block w-100" alt="Palomera#22">
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#caz5" data-bs-slide="prev">
@@ -300,28 +302,11 @@
       </div>
         <div class="card-body">
           <h4 class="card-title">Palomera #22</h4>
-        </div>
           <p class="card-text">Diametro: 22cm </br> Altura: 18cm </br> Capacidad: --</p>
+        </div>
+      </div>
     </div>
 </main>  
-<!-- paginacion -->
-  <!-- <nav aria-label="Page navigation example">
-    <ul class="pagination justify-content-center">
-      <li class="page-item disabled">
-        <a class="page-link" href="#" aria-label="Previous">
-          <span aria-hidden="true">&laquo;</span>
-        </a>
-      </li>
-      <li class="page-item"><a class="page-link" href="#">1</a></li>
-      <li class="page-item "><a class="page-link" href="#">2</a></li>
-      <li class="page-item"><a class="page-link" href="#">3</a></li>
-      <li class="page-item">
-        <a class="page-link" href="#" aria-label="Next">
-          <span aria-hidden="true">&raquo;</span>
-        </a>
-      </li>
-    </ul>
-  </nav> -->
   <!-- Footer -->
     <footer id="pie" class="small bg-secondary text-success" style="margin-top: 4rem;">
         <div class="container py-3 py-sm-5">
@@ -358,12 +343,12 @@
     </footer>
     
     <!-- Carga de scripts JS -->
-    <script src="./js/jquery-3.6.0.min.js"></script>
-    <script src="./js/bootstrap.bundle.min.js"></script>      
-    <script src="./js/anime.min.js"></script>
-    <script src="./js/swiper-bundle.min.js"></script>
-    <script src="./js/leaflet.js"></script>
-    <script src="./js/mis-scripts.js"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>      
+    <script src="js/anime.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/leaflet.js"></script>
+    <script src="js/mis-scripts.js"></script>
     <script>
       //Get the button
       var mybutton = document.getElementById("myBtn");

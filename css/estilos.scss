@@ -323,6 +323,22 @@ h6{
     opacity: .7;
   }
 
+  .pagina{
+      background-color: $secundario;
+      font-size: 2rem;
+      color: $terciario;
+      padding-left: 1rem;
+      padding-right: 1rem;
+      margin-top: 3rem;
+      font-family: 'Nunito', sans-serif;
+      
+  }
+
+  .activo{
+    background-color:$secundario;
+    opacity: .5;
+ }
+
 
 /*=========================
  9. @media QUERIES

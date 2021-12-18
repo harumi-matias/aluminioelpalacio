@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Carga de estilos -->
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- CSS de Font Awesome -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- Fuente de google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,700;1,300&display=swap" rel="stylesheet">
+    <!-- Plantilla normalize -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- Icono de navegador -->
+    <link rel="shortcut icon" type="image/png" href="images/192x192.png">
+    <!-- Color de la aplicación -->
+    <meta name="theme-color" content="#ad8fff">
+    <!-- Optimización para movil -->
+    <meta name="MobileOptimized" content="width">  
+    <meta name="HandheldFriendly" content="true">
+    <!-- Meta etiquetas PWA para Apple -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"> 
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-startup-image" href="images/apple-touch-icon.png">
+    <!-- Configuración General PWA -->
+    <!-- <link rel="manifest" href="/manifest.json"> -->
+    <link rel="manifest" href="manifest.webmanifest">
+    <!-- CSS Swiper -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <!-- CSS personalizados -->
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Recipientes Doble Fuerte</title>
+</head>
+<body>
+  <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+    <header>
+      <section id="datos-generales" class="d-md-block">
+        <div class="container-fluid bg-secondary">
+                    <nav id="menu-navegacion" class="row navbar navbar-dark navbar-expand-lg">
+                        <div class="container-fluid bg-secondary">
+                            <a class="navbar-brand" href="index.html"> <img src="images/logo.png" alt="Logo" width="150" height="auto" ></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#contenido"><span class="navbar-toggler-icon"></span>
+                        </button> 
+                        <div id="contenido" class="collapse navbar-collapse ms-md-auto">
+                            <ul class="navbar-nav m-auto">
+                                <li class="nav-item"><a class="nav-link" href="index.html">Nosotros </a></li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                      Doble Fuerte
+                                    </a>
+                                    <ul class="dropdown-menu bg-secondary" aria-labelledby="navbarScrollingDropdown">
+                                      <li ><a class="dropdown-item" href="arrocerasdf.html">Arroceras</a></li>
+                                      <li><a class="dropdown-item" href="vaporerasdf.html">Vaporeras</a></li>
+                                      <li><a class="dropdown-item" href="mediasdf.html">Medias Vaporeras</a></li>
+                                      <li><a class="dropdown-item" href="cazos.html">Cazos</a></li>
+                                      <li><a class="dropdown-item" href="utensilios.html">Utensilios</a></li>
+                                      <li><a class="dropdown-item" href="charolas.html">Charolas</a></li>
+                                      <li><a class="dropdown-item" href="recipientesdf.html">Recipientes</a></li>
+                                      <li><a class="dropdown-item" href="paellerasdf.html">Paelleras</a></li>
+                                      <li><a class="dropdown-item" href="hornos.html">Hornos</a></li>
+                                      <li><a class="dropdown-item" href="ollas.html">Ollas</a></li>
+                                      <li><a class="dropdown-item" href="sartenes.html">Sartenes</a></li>
+                                    </ul>
+                                  </li>
+                                  <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                      Triple Fuerte
+                                    </a>
+                                    <ul class="dropdown-menu bg-secondary" aria-labelledby="navbarScrollingDropdown">
+                                      <li ><a class="dropdown-item" href="arroceras.html">Arroceras</a></li>
+                                      <li><a class="dropdown-item" href="vaporeras.html">Vaporeras</a></li>
+                                      <li><a class="dropdown-item" href="mediastf.html">Medias Vaporeras</a></li>
+                                      <li><a class="dropdown-item" href="cazostf.html">Cazos</a></li>
+                                      <li><a class="dropdown-item" href="comalestf.html">Comales</a></li>
+                                      <li><a class="dropdown-item" href="paellerastf.html">Paelleras</a></li>
+                                      <li><a class="dropdown-item" href="pocillos.html">Pocillos</a></li>
+                                      <li><a class="dropdown-item" href="mediasollas.html">Medias Ollas</a></li>
+                                      <li><a class="dropdown-item" href="ollas.html">Ollas</a></li>
+                                      <li><a class="dropdown-item" href="sartenes.html">Sartenes</a></li>
+                                      <li><a class="dropdown-item" href="woks.html">Woks</a></li>
+                                    </ul>
+                                  </li>
+                                <li class="nav-item"><a class="nav-link" href="baterías.html">Baterías</a></li>
+                                <li class="nav-item"><a class="nav-link" href="juegos.html">Juegos</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#pie">Contacto</a></li>
+                            </ul>                
+                        </div> 
+                </div>
+            </div>
+        </div>
+    </section>
+    </header>
+    <section>
+      <div class="swiper-container mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide" style="background-image: url(images/banner_arroceras_.jpg); background-position: center; background-size: cover; background-repeat: no-repeat;"></div>
+        </div>
+      </div>
+    </section>
+  <section class="col-12">
+    <h1 class="text-center fw-bold">Medias Vaporeras Doble Fuerte</h1>
+    <p class="container" style="text-align: center; font-size: 2rem; margin-top: 2rem; margin-bottom: 3rem; padding: 1.2rem;">Nuestros productos de la línea doble fuerte son ideales para uso doméstico ya que al ser un material muy ligero se puede manejar con mayor facilidad asegurando una mejor cocción en todos tus alimentos en menor tiempo.
+    </p>
+  </section>
+<!-- seccion mediasvaporeras -->
+<main class="container-fluid">
+          <!-- Imagenes -->
+    <div class="row justify-content-center">
+            <!-- Inicio imagenesmediasvaporeras 1.1-->            
+      <div class="card col-12 col-sm-6 col-lg-3" style="width: 25rem; margin: 1.3rem;">
+        <div id="mvap1" class="carousel slide carousel-dark" data-bs-ride="false" data-bs-interval="false">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#mvap1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#mvap1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#mvap1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/mediasvaporeras/df/mediamega_fnt.jpg" class="d-block w-100" alt="MediaMegaVaporera">
+              </div>
+              <div class="carousel-item">
+                <img src="images/mediasvaporeras/df/mediamega_iso.jpg" class="d-block w-100" alt="MediaMegaVaporera">
+              </div>
+              <div class="carousel-item">
+                <img src="images/mediasvaporeras/df/mediamega_det.jpg" class="d-block w-100" alt="MediaMegaVaporera">
+              </div>
+            </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#mvap1" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#mvap1" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+              <div class="card-body">
+                  <h4 class="card-title">Media Mega Vaporera</h4>
+                  <p class="card-text">Diametro: 60cm </br> Altura: 30cm</br> Capacidad: 84 litros</p>
+             </div>
+        </div>
+                <!-- siguiente 2.1-->
+          <div class="card col-12 col-sm-6 col-lg-3" style="width: 25rem; margin: 1.3rem;">
+            <div id="mvap2" class="carousel slide carousel-dark" data-bs-ride="false" data-bs-interval="false">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#mvap2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#mvap2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#mvap2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="images/mediasvaporeras/df/90_fnt.jpg" class="d-block w-100" alt="MediaVaporera#90">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/mediasvaporeras/df/90_iso.jpg" class="d-block w-100" alt="MediaVaporera#90">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/mediasvaporeras/df/90_det.jpg" class="d-block w-100" alt="MediaVaporera#90">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#mvap2" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#mvap2" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+                <div class="card-body">
+                  <h4 class="card-title">Media Vaporera #90</h4>
+                  <p class="card-text">Diametro: 50cm </br> Altura: 33cm </br> Capacidad: 64 litros</p>
+                </div>  
+            </div>
+            <!-- siguiente 3.1 -->
+          <div class="card col-12 col-sm-6 col-lg-3" style="width: 25rem; margin: 1.3rem;">
+            <div id="mvap3" class="carousel slide carousel-dark" data-bs-ride="false" data-bs-interval="false">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#mvap3" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#mvap3" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#mvap3" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/mediasvaporeras/df/70_fnt.jpg" class="d-block w-100" alt="MediaVaporera#70">
+              </div>
+              <div class="carousel-item">
+                <img src="images/mediasvaporeras/df/70_iso.jpg" class="d-block w-100" alt="MediaVaporera#70">
+              </div>
+              <div class="carousel-item">
+                <img src="images/mediasvaporeras/df/70_det.jpg" class="d-block w-100" alt="MediaVaporera#70">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#mvap3" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#mvap3" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+            <div class="card-body">
+              <h4 class="card-title">Media Vaporera #70</h4>
+              <p class="card-text">Diametro: 45cm </br> Altura: 25cm </br> Capacidad: 39 litros</p>
+            </div>
+        </div>
+        <!-- Siguiente 4-->
+        <div class="card col-12 col-sm-6 col-lg-3" style="width: 25rem; margin: 1.3rem;">
+          <div id="mvap4" class="carousel slide carousel-dark" data-bs-ride="false" data-bs-interval="false">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#mvap4" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#mvap4" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#mvap4" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/mediasvaporeras/df/45_fnt.jpg" class="d-block w-100" alt="MediaVaporera#45">
+            </div>
+            <div class="carousel-item">
+              <img src="images/mediasvaporeras/df/45_iso.jpg" class="d-block w-100" alt="MediaVaporera#45">
+            </div>
+            <div class="carousel-item">
+              <img src="images/mediasvaporeras/df/45_det.jpg" class="d-block w-100" alt="MediaVaporera#45">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#mvap4" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#mvap4" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+          <div class="card-body">
+            <h4 class="card-title">Media Vaporera #45</h4>
+            <p class="card-text">Diametro: 40cm </br> Altura: 23cm </br> Capacidad: 28.5 litros</p>
+          </div>
+      </div>
+    </div>  
+      <div class="row justify-content-center">
+        <!-- Siguiente 1.2-->
+        <div class="card col-12 col-sm-6 col-lg-3" style="width: 25rem; margin: 1.3rem;">
+          <div id="mvap5" class="carousel slide carousel-dark" data-bs-ride="false" data-bs-interval="false">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#mvap5" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#mvap5" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#mvap5" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                 <img src="images/mediasvaporeras/df/34_fnt.jpg" class="d-block w-100" alt="MediaVaporera#34">
+                </div>
+                <div class="carousel-item">
+                 <img src="images/mediasvaporeras/df/34_iso.jpg" class="d-block w-100" alt="MediaVaporera#34">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/mediasvaporeras/df/34_det.jpg" class="d-block w-100" alt="MediaVaporera#34">
+                </div>
+              </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#mvap5" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#mvap5" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+          </div>
+            <div class="card-body">
+              <h4 class="card-title">Media Vaporera #34</h4>
+              <p class="card-text">Diametro: 34cm </br> Altura: 20cm </br> Capacidad: 18 litros</p>
+            </div>
+        </div>
+      <!-- Siguiente 2.2-->
+      <div class="card col-12 col-sm-6 col-lg-3" style="width: 25rem; margin: 1.3rem;">
+        <div id="mvap6" class="carousel slide carousel-dark" data-bs-ride="false" data-bs-interval="false">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#mvap6" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#mvap6" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#mvap6" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/mediasvaporeras/df/32_fnt.jpg" class="d-block w-100" alt="MediaVaporera#32">
+          </div>
+          <div class="carousel-item">
+            <img src="images/mediasvaporeras/df/32_iso.jpg" class="d-block w-100" alt="MediaVaporera#32">
+          </div>
+          <div class="carousel-item">
+            <img src="images/mediasvaporeras/df/32_det.jpg" class="d-block w-100" alt="MediaVaporera#32">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#mvap6" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#mvap6" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+        <div class="card-body">
+          <h4 class="card-title">Media Vaporera #32</h4>
+          <p class="card-text">Diametro: 32cm </br> Altura: 19cm </br> Capacidad: 15 litros</p>
+        </div>
+    </div>
+    <!-- Siguiente 3.2-->
+    <div class="card col-12 col-sm-6 col-lg-3" style="width: 25rem; margin: 1.3rem;">
+      <div id="mvap7" class="carousel slide carousel-dark" data-bs-ride="false" data-bs-interval="false">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#mvap7" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#mvap7" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#mvap7" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/mediasvaporeras/df/30_fnt.jpg" class="d-block w-100" alt="MediaVaporera#30">
+        </div>
+        <div class="carousel-item">
+          <img src="images/mediasvaporeras/df/30_iso.jpg" class="d-block w-100" alt="MediaVaporera#30">
+        </div>
+        <div class="carousel-item">
+          <img src="images/mediasvaporeras/df/30_det.jpg" class="d-block w-100" alt="MediaVaporera#30">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#mvap7" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#mvap7" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+      <div class="card-body">
+        <h4 class="card-title">Media Vaporera #30</h4>
+        <p class="card-text">Diametro: 30cm </br> Altura:19cm </br> Capacidad: 13 litros </p>
+      </div>
+  </div>
+  <!-- Siguiente4 contnuar 28 -->
+  <div class="card col-12 col-sm-6 col-lg-3" style="width: 25rem; margin: 1.3rem;">
+    <div id="mvap8" class="carousel slide carousel-dark" data-bs-ride="false" data-bs-interval="false">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#mvap8" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#mvap8" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#mvap8" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/mediasvaporeras/df/28_fnt.jpg" class="d-block w-100" alt="MediaVaporera#28">
+      </div>
+      <div class="carousel-item">
+        <img src="images/mediasvaporeras/df/28_iso.jpg" class="d-block w-100" alt="MediaVaporera#28">
+      </div>
+      <div class="carousel-item">
+        <img src="images/mediasvaporeras/df/28_det.jpg" class="d-block w-100" alt="MediaVaporera#28">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#mvap8" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#mvap8" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+    <div class="card-body">
+      <h4 class="card-title">Media Vaporera #28</h4>
+      <p class="card-text">Diametro: 28cm </br> Altura: 17.5cm </br> Capacidad: 10.5 litros</p>
+    </div>
+  </div>
+</div>
+<div class="row justify-content-center">
+<!-- Siguiente 1.3-->
+<div class="card col-12 col-sm-6 col-lg-3" style="width: 25rem; margin: 1.3rem;">
+  <div id="mvap9" class="carousel slide carousel-dark" data-bs-ride="false" data-bs-interval="false">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#mvap9" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#mvap9" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#mvap9" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/mediasvaporeras/df/26_fnt.jpg" class="d-block w-100" alt="MediaVaporera#26">
+      </div>
+      <div class="carousel-item">
+        <img src="images/mediasvaporeras/df/26_iso.jpg" class="d-block w-100" alt="MediaVaporera#26">
+      </div>
+      <div class="carousel-item">
+        <img src="images/mediasvaporeras/df/26_det.jpg" class="d-block w-100" alt="MediaVaporera#26">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#mvap9" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#mvap9" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+    <div class="card-body">
+      <h4 class="card-title">Media Vaporera #26</h4>
+      <p class="card-text">Diametro: 26cm </br> Altura: 17cm </br> Capacidad: 9 litros</p>
+    </div>
+</div>
+<!-- Siguiente 2.3-->
+<div class="card" style="width: 25rem; margin: 1.3rem;">
+  <div id="mvap10" class="carousel slide carousel-dark" data-bs-ride="false" data-bs-interval="false">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#mvap10" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#mvap10" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#mvap10" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/mediasvaporeras/df/24_fnt.jpg" class="d-block w-100" alt="MediaVaporera#24">
+    </div>
+    <div class="carousel-item">
+      <img src="images/mediasvaporeras/df/24_iso.jpg" class="d-block w-100" alt="Vaporera#30">
+    </div>
+    <div class="carousel-item">
+      <img src="images/mediasvaporeras/df/24_det.jpg" class="d-block w-100" alt="MediaVaporera#24">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#mvap10" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#mvap10" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+  <div class="card-body">
+    <h4 class="card-title">Media Vaporera #24</h4>
+    <p class="card-text">Diametro: 24cm </br> Altura: 16cm </br> Capacidad: 7 litros</p>
+  </div>
+</div>
+<!-- Siguiente3.3 -->
+<div class="card col-12 col-sm-6 col-lg-3" style="width: 25rem; margin: 1.3rem;">
+  <div id="mvap11" class="carousel slide carousel-dark" data-bs-ride="false" data-bs-interval="false">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#mvap11" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#mvap11" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#mvap11" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/mediasvaporeras/df/22_fnt.jpg" class="d-block w-100" alt="MediaVaporera#22">
+    </div>
+    <div class="carousel-item">
+      <img src="images/mediasvaporeras/df/22_iso.jpg" class="d-block w-100" alt="MediaVaporera#22">
+    </div>
+    <div class="carousel-item">
+      <img src="images/mediasvaporeras/df/22_det.jpg" class="d-block w-100" alt="MediaVaporera#22">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#mvap11" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#mvap11" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+  <div class="card-body">
+    <h4 class="card-title">Media Vaporera #22</h4>
+    <p class="card-text">Diametro: 22 </br> Altura: 14cm </br> Capacidad: 5 litros</p>
+  </div>
+</div>
+  </div>
+</div>  
+</main>  
+  <!-- Footer -->
+    <footer id="pie" class="small bg-secondary text-success" style="margin-top: 8rem;">
+        <div class="container py-3 py-sm-5">
+            <div class="row">
+                <div class="col-12 col-sm-6 col-md-4">
+                    <h6>Enlaces rápidos</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html">Nosotros</a></li>
+                        <li><a href="#promo">Promociones</a></li>                
+                        <li><a href="#pie">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4">
+                    <h6>Teléfonos</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="tel:+5522078111"><i class="fas fa-fw fa-phone"></i> (55) 2207 8111</a></li>
+                        <li><a href="tel:+5531882910"><i class="fas fa-fw fa-phone"></i> (55) 3188 2910</a></li>
+                        <li><a href="https://www.facebook.com/www.aluminioelpalacio.com.mx/"><i class="fab fa-facebook-f"></i> Facebook</a></li>
+                        <li><a href="mailto:contacto@aluminioelpalacio.com.mx"><i class="fas fa-fw fa-envelope"></i> Contáctanos</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3">
+                    <h6>Ubicación</h6>
+                    <address>
+                        <strong>Calle Cerro del Chiquihuite # 16</strong><br>Manzana 144, C.P.07110, Col. Lomas de Chapultepec, Gustavo a Madero, Ciudad de México<br>
+                    </address>
+                </div>
+            </div>
+            <ul class="list-inline mt-2 mb-0 text-center">
+                <li class="list-inline-item">&copy; 2021 </li>
+                <li class="list-inline-item">All rights reserved.</li>
+            </ul>
+        </div>
+    </footer>
+    
+    <!-- Carga de scripts JS -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>      
+    <script src="js/anime.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/mis-scripts.js"></script>  
+    <script>
+      //Get the button
+      var mybutton = document.getElementById("myBtn");
+      
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function() {scrollFunction()};
+      
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+      
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+      </script>
+</body>
+</html>

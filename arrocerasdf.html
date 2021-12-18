@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -31,13 +31,12 @@
     <link rel="manifest" href="manifest.webmanifest">
     <!-- CSS Swiper -->
     <link rel="stylesheet" href="css/swiper-bundle.min.css">
-    <!-- CSS leaflet -->
-    <link rel="stylesheet" href="css/leaflet.css">
     <!-- CSS personalizados -->
     <link rel="stylesheet" href="css/estilos.css">
-    <title>Arroceras Doble Fuerte</title>
+    <title>Recipientes Doble Fuerte</title>
 </head>
 <body>
+  <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
     <header>
       <section id="datos-generales" class="d-md-block">
         <div class="container-fluid bg-secondary">
@@ -48,7 +47,7 @@
                         </button> 
                         <div id="contenido" class="collapse navbar-collapse ms-md-auto">
                             <ul class="navbar-nav m-auto">
-                                <li class="nav-item"><a class="nav-link" href="index.html">Nosotros</a></li>
+                                <li class="nav-item"><a class="nav-link" href="index.html">Nosotros </a></li>
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                       Doble Fuerte
@@ -57,9 +56,11 @@
                                       <li ><a class="dropdown-item" href="arrocerasdf.html">Arroceras</a></li>
                                       <li><a class="dropdown-item" href="vaporerasdf.html">Vaporeras</a></li>
                                       <li><a class="dropdown-item" href="mediasdf.html">Medias Vaporeras</a></li>
+                                      <li><a class="dropdown-item" href="cazos.html">Cazos</a></li>
                                       <li><a class="dropdown-item" href="utensilios.html">Utensilios</a></li>
                                       <li><a class="dropdown-item" href="charolas.html">Charolas</a></li>
                                       <li><a class="dropdown-item" href="recipientesdf.html">Recipientes</a></li>
+                                      <li><a class="dropdown-item" href="paellerasdf.html">Paelleras</a></li>
                                       <li><a class="dropdown-item" href="hornos.html">Hornos</a></li>
                                       <li><a class="dropdown-item" href="ollas.html">Ollas</a></li>
                                       <li><a class="dropdown-item" href="sartenes.html">Sartenes</a></li>
@@ -73,17 +74,18 @@
                                       <li ><a class="dropdown-item" href="arroceras.html">Arroceras</a></li>
                                       <li><a class="dropdown-item" href="vaporeras.html">Vaporeras</a></li>
                                       <li><a class="dropdown-item" href="mediastf.html">Medias Vaporeras</a></li>
-                                      <li><a class="dropdown-item" href="casos.html">Cazos</a></li>
-                                      <li><a class="dropdown-item" href="recipientes.html">Recipientes</a></li>
+                                      <li><a class="dropdown-item" href="cazostf.html">Cazos</a></li>
+                                      <li><a class="dropdown-item" href="comalestf.html">Comales</a></li>
+                                      <li><a class="dropdown-item" href="paellerastf.html">Paelleras</a></li>
+                                      <li><a class="dropdown-item" href="pocillos.html">Pocillos</a></li>
                                       <li><a class="dropdown-item" href="mediasollas.html">Medias Ollas</a></li>
-                                      <li><a class="dropdown-item" href="ollas_peroles.html">Ollas/ Peroles</a></li>
-                                      <li><a class="dropdown-item" href="convexas.html">Ollas Convexas</a></li>
+                                      <li><a class="dropdown-item" href="ollas.html">Ollas</a></li>
+                                      <li><a class="dropdown-item" href="sartenes.html">Sartenes</a></li>
                                       <li><a class="dropdown-item" href="woks.html">Woks</a></li>
                                     </ul>
                                   </li>
                                 <li class="nav-item"><a class="nav-link" href="baterías.html">Baterías</a></li>
                                 <li class="nav-item"><a class="nav-link" href="juegos.html">Juegos</a></li>
-                                <li class="nav-item"><a class="nav-link" href="https://harumi-matias.github.io/aluminioelpalacio/index.html#promo">Promociones</a></li>
                                 <li class="nav-item"><a class="nav-link" href="#pie">Contacto</a></li>
                             </ul>                
                         </div> 
@@ -99,413 +101,688 @@
         </div>
       </div>
     </section>
-  <main class="container">
+  <section class="col-12">
     <h1 class="text-center fw-bold">Arroceras Doble Fuerte</h1>
-    <p style="text-align: center; font-size: 2rem; margin-top: 2rem; margin-bottom: 3rem; padding: 1.2rem;">Nuestros productos de la línea doble fuerte son ideales para uso doméstico ya que al ser un material muy ligero se puede manejar con mayor facilidad asegurando una mejor cocción en todos tus alimentos en menor tiempo.
+    <p class="container" style="text-align: center; font-size: 2rem; margin-top: 2rem; margin-bottom: 3rem; padding: 1.2rem;">Nuestros productos de la línea doble fuerte son ideales para uso doméstico ya que al ser un material muy ligero se puede manejar con mayor facilidad asegurando una mejor cocción en todos tus alimentos en menor tiempo.
     </p>
-      <div class="col-12 col-lg-12 col-md-4 col-sm-12">
-          <div class="row justify-content-center">
-              <!-- Inicio imagenes   -->
-              <div class="card" style="width: 25rem; margin: 1.3rem;">
-                <div id="carousel1" class="carousel slide carousel-dark" data-bs-ride="false" data-bs-interval="false">
-                <div class="carousel-indicators">
-                  <button type="button" data-bs-target="#carousel1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                  <button type="button" data-bs-target="#carousel1" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                  <button type="button" data-bs-target="#carousel1" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                </div>
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="images/mega-arr_fnt.jpg" class="d-block w-100" alt="Mega_Arrocera">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="images/mega_arrocera.jpg" class="d-block w-100" alt="Mega_Arrocera">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="images/mega_arr_det.jpg" class="d-block w-100" alt="Mega_Arrocera">
-                  </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carousel1" data-bs-slide="prev">
+  </section>
+<!-- seccion arroceras -->
+<main class="container-fluid">
+          <!-- Imagenes -->
+    <div class="row justify-content-center">
+            <!-- Inicio imagenesArroceras 1.1-->            
+      <div class="card col-12 col-sm-6 col-lg-3" style="width: 25rem; margin: 1.3rem;">
+        <div id="arr1" class="carousel slide carousel-dark" data-bs-ride="false" data-bs-interval="false">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#arr1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#arr1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#arr1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/arroceras/df/mega_fnt.jpg" class="d-block w-100" alt="MegaArrocera">
+              </div>
+              <div class="carousel-item">
+                <img src="images/arroceras/df/mega_iso.jpg" class="d-block w-100" alt="MegaArrocera">
+              </div>
+              <div class="carousel-item">
+                <img src="images/arroceras/df/mega_det.jpg" class="d-block w-100" alt="MegaArrocera">
+              </div>
+            </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#arr1" data-bs-slide="prev">
                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carousel1" data-bs-slide="next">
+                <button class="carousel-control-next" type="button" data-bs-target="#arr1" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+              <div class="card-body">
+                  <h4 class="card-title">Mega Arrocera</h4>
+                  <p class="card-text">Diametro: 70cm </br> Altura: 25cm</br> Capacidad: 96 litros / 25 kilos</p>
+             </div>
+        </div>
+                <!-- siguiente 2.1-->
+          <div class="card col-12 col-sm-6 col-lg-3" style="width: 25rem; margin: 1.3rem;">
+            <div id="arr2" class="carousel slide carousel-dark" data-bs-ride="false" data-bs-interval="false">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#arr2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#arr2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#arr2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="images/arroceras/df/60_fnt.jpg" class="d-block w-100" alt="Arrocera#60">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/arroceras/df/60_iso.jpg" class="d-block w-100" alt="Arrocera#60">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/arroceras/df/60_det.jpg" class="d-block w-100" alt="Arrocera#60">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#arr2" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#arr2" data-bs-slide="next">
                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Next</span>
                 </button>
               </div>
                 <div class="card-body">
-                  <h4 class="card-title">Mega Arrocera</h4>
-                </div>
-                  <p class="card-text">Diametro: 70cm </br> Altura: 25cm </br> Capacidad: 96 litros / 25 kilos</p>
+                  <h4 class="card-title">Arrocera #60</h4>
+                  <p class="card-text">Diametro: 60cm </br> Altura: 22cm </br> Capacidad: 62 litros / 15 kilos</p>
+                </div>  
             </div>
-            <!-- siguiente -->
-            <div class="card" style="width: 25rem; margin: 1.3rem;">
-              <div id="carousel2" class="carousel slide carousel-dark" data-bs-ride="false" data-bs-interval="false">
+            <!-- siguiente 3.1 -->
+          <div class="card col-12 col-sm-6 col-lg-3" style="width: 25rem; margin: 1.3rem;">
+            <div id="arr3" class="carousel slide carousel-dark" data-bs-ride="false" data-bs-interval="false">
               <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carousel2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carousel2" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carousel2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#arr3" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#arr3" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#arr3" data-bs-slide-to="2" aria-label="Slide 3"></button>
               </div>
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img src="images/arrocera60.jpg" class="d-block w-100" alt="Arrocera_60">
-                </div>
-                <div class="carousel-item">
-                  <img src="images/arrocera60_fnt.jpg" class="d-block w-100" alt="Arrocera_60">
-                </div>
-                <div class="carousel-item">
-                  <img src="images/arrocera60_det.jpg" class="d-block w-100" alt="Arrocera_60">
-                </div>
-              </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#carousel2" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carousel2" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-              </button>
-            </div>
-              <div class="card-body">
-                <h4 class="card-title">Arrocera #60</h4>
-              </div>
-                <p class="card-text">Diametro: 60cm </br> Altura: 22cm </br> Capacidad: 62 litros / 15 kilos</p>
-          </div>
-        <!-- siguiente -->
-          <div class="card" style="width: 25rem; margin: 1.3rem;">
-            <div id="carousel3" class="carousel slide carousel-dark" data-bs-ride="false" data-bs-interval="false">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carousel3" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carousel3" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carousel3" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="images/arrocera55.jpg" class="d-block w-100" alt="Arrocera_55">
+                <img src="images/arroceras/df/55disco_fnt.jpg" class="d-block w-100" alt="Arrocera#55conDisco">
               </div>
               <div class="carousel-item">
-                <img src="images/arrocera55_fnt.jpg" class="d-block w-100" alt="Arrocera_55">
+                <img src="images/arroceras/df/55disco_iso.jpg" class="d-block w-100" alt="Arrocera#55conDisco">
               </div>
               <div class="carousel-item">
-                <img src="images/arrocera55_det.jpg" class="d-block w-100" alt="Arrocera_55">
+                <img src="images/arroceras/df/55disco_det.jpg" class="d-block w-100" alt="Arrocera#55conDisco">
               </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carousel3" data-bs-slide="prev">
+            <button class="carousel-control-prev" type="button" data-bs-target="#arr3" data-bs-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carousel3" data-bs-slide="next">
+            <button class="carousel-control-next" type="button" data-bs-target="#arr3" data-bs-slide="next">
               <span class="carousel-control-next-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Next</span>
             </button>
           </div>
             <div class="card-body">
-              <h4 class="card-title">Arrocera #55</h4>
-            </div>
+              <h4 class="card-title">Arrocera #55 con Disco</h4>
               <p class="card-text">Diametro: 50cm </br> Altura: 21.5cm </br> Capacidad: 41 litros / 10 kilos</p>
+            </div>
         </div>
-        <!-- Siguiente -->
-        <div class="card" style="width: 25rem; margin: 1.3rem;">
-          <div id="carousel4" class="carousel slide carousel-dark" data-bs-ride="false" data-bs-interval="false">
+        <!-- Siguiente 4-->
+        <div class="card col-12 col-sm-6 col-lg-3" style="width: 25rem; margin: 1.3rem;">
+          <div id="arr4" class="carousel slide carousel-dark" data-bs-ride="false" data-bs-interval="false">
           <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carousel4" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carousel4" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carousel4" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#arr4" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#arr4" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#arr4" data-bs-slide-to="2" aria-label="Slide 3"></button>
           </div>
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="images/55disco_fnt.jpg" class="d-block w-100" alt="Arrocera_55_disco">
+              <img src="images/arroceras/df/55_fnt.jpg" class="d-block w-100" alt="Arrocera#55">
             </div>
             <div class="carousel-item">
-              <img src="images/55disco.jpg" class="d-block w-100" alt="Arrocera_55_disco">
+              <img src="images/arroceras/df/55_iso.jpg" class="d-block w-100" alt="Arrocera#55">
             </div>
             <div class="carousel-item">
-              <img src="images/55disco_det.jpg" class="d-block w-100" alt="Arrocera_55_disco">
+              <img src="images/arroceras/df/55_det.jpg" class="d-block w-100" alt="Arrocera#55">
             </div>
           </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carousel4" data-bs-slide="prev">
+          <button class="carousel-control-prev" type="button" data-bs-target="#arr4" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
           </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carousel4" data-bs-slide="next">
+          <button class="carousel-control-next" type="button" data-bs-target="#arr4" data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
           </button>
         </div>
           <div class="card-body">
-            <h4 class="card-title">Arrocera #55 con Disco</h4>
-          </div>
+            <h4 class="card-title">Arrocera #55</h4>
             <p class="card-text">Diametro: 50cm </br> Altura: 21.5cm </br> Capacidad: 41 litros / 10 kilos</p>
+          </div>
       </div>
-      <!-- Siguiente -->
-      <div class="card" style="width: 25rem; margin: 1.3rem;">
-        <div id="carousel5" class="carousel slide carousel-dark" data-bs-ride="false" data-bs-interval="false">
+    </div>  
+      <div class="row justify-content-center">
+        <!-- Siguiente 1.2-->
+        <div class="card col-12 col-sm-6 col-lg-3" style="width: 25rem; margin: 1.3rem;">
+          <div id="arr5" class="carousel slide carousel-dark" data-bs-ride="false" data-bs-interval="false">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#arr5" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#arr5" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#arr5" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                 <img src="images/arroceras/df/50_fnt.jpg" class="d-block w-100" alt="Arrocera#50">
+                </div>
+                <div class="carousel-item">
+                 <img src="images/arroceras/df/50_iso.jpg" class="d-block w-100" alt="Arrocera#50">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/arroceras/df/50_det.jpg" class="d-block w-100" alt="Arrocera#50">
+                </div>
+              </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#arr5" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#arr5" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+          </div>
+            <div class="card-body">
+              <h4 class="card-title">Arrocera #50</h4>
+              <p class="card-text">Diametro: 45cm </br> Altura: 17cm </br> Capacidad: 27 litros / 7.5 kilos</p>
+            </div>
+        </div>
+      <!-- Siguiente 2.2-->
+      <div class="card col-12 col-sm-6 col-lg-3" style="width: 25rem; margin: 1.3rem;">
+        <div id="arr6" class="carousel slide carousel-dark" data-bs-ride="false" data-bs-interval="false">
         <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carousel5" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carousel5" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carousel5" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#arr6" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#arr6" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#arr6" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="images/arrocera50.jpg" class="d-block w-100" alt="Arrocera_50">
+            <img src="images/arroceras/df/40cristal_fnt.jpg" class="d-block w-100" alt="Arrocera#40conTapadeCristal">
           </div>
           <div class="carousel-item">
-            <img src="images/arrocera50_fnt.jpg" class="d-block w-100" alt="Arrocera_50">
+            <img src="images/arroceras/df/40cristal_iso.jpg" class="d-block w-100" alt="Arrocera#40conTapadeCristal">
           </div>
           <div class="carousel-item">
-            <img src="images/arrocera50_det.jpg" class="d-block w-100" alt="Arrocera_50">
+            <img src="images/arroceras/df/40cristal_det.jpg" class="d-block w-100" alt="Arrocera#40conTapadeCristal">
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carousel5" data-bs-slide="prev">
+        <button class="carousel-control-prev" type="button" data-bs-target="#arr6" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carousel5" data-bs-slide="next">
+        <button class="carousel-control-next" type="button" data-bs-target="#arr6" data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
       </div>
         <div class="card-body">
-          <h4 class="card-title">Arrocera #50</h4>
+          <h4 class="card-title">Arrocera #40 con Tapa de Cristal</h4>
+          <p class="card-text">Diametro: 40cm </br> Altura: 15cm </br> Capacidad: 18 litros / 5 kilos</p>
         </div>
-          <p class="card-text">Diametro: 45cm </br> Altura: 17cm </br> Capacidad: 27 litros / 7.5 kilos</p>
     </div>
-    <!-- Siguiente -->
-    <div class="card" style="width: 25rem; margin: 1.3rem;">
-      <div id="carousel6" class="carousel slide carousel-dark" data-bs-ride="false" data-bs-interval="false">
+    <!-- Siguiente 3.2-->
+    <div class="card col-12 col-sm-6 col-lg-3" style="width: 25rem; margin: 1.3rem;">
+      <div id="arr7" class="carousel slide carousel-dark" data-bs-ride="false" data-bs-interval="false">
       <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carousel6" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carousel6" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carousel6" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#arr7" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#arr7" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#arr7" data-bs-slide-to="2" aria-label="Slide 3"></button>
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="images/arrocera40.jpg" class="d-block w-100" alt="Arrocera_40">
+          <img src="images/arroceras/df/40_fnt.jpg" class="d-block w-100" alt="Arrocera#40">
         </div>
         <div class="carousel-item">
-          <img src="images/arrocera40_fnt.jpg" class="d-block w-100" alt="Arrocera_40">
+          <img src="images/arroceras/df/40_iso.jpg" class="d-block w-100" alt="Arrocera#40">
         </div>
         <div class="carousel-item">
-          <img src="images/arrocera40_det.jpg" class="d-block w-100" alt="Arrocera_40">
+          <img src="images/arroceras/df/40_det.jpg" class="d-block w-100" alt="Arrocera#40">
         </div>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carousel6" data-bs-slide="prev">
+      <button class="carousel-control-prev" type="button" data-bs-target="#arr7" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
       </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carousel6" data-bs-slide="next">
+      <button class="carousel-control-next" type="button" data-bs-target="#arr7" data-bs-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
     </div>
       <div class="card-body">
         <h4 class="card-title">Arrocera #40</h4>
+        <p class="card-text">Diametro: 40cm </br> Altura: 15cm </br> Capacidad: 18 litros / 5 kilos </p>
       </div>
-        <p class="card-text">Diametro: 40cm </br> Altura: 15cm </br> Capacidad: 18 litros / 5 kilos</p>
   </div>
-  <!-- Siguiente -->
-  <div class="card" style="width: 25rem; margin: 1.3rem;">
-    <div id="carousel7" class="carousel slide carousel-dark" data-bs-ride="false" data-bs-interval="false">
+  <!-- Siguiente4 -->
+  <div class="card col-12 col-sm-6 col-lg-3" style="width: 25rem; margin: 1.3rem;">
+    <div id="arr8" class="carousel slide carousel-dark" data-bs-ride="false" data-bs-interval="false">
     <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carousel7" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carousel7" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carousel7" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#arr8" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#arr8" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#arr8" data-bs-slide-to="2" aria-label="Slide 3"></button>
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="images/arrocera36.jpg" class="d-block w-100" alt="Arrocera_36">
+        <img src="images/arroceras/df/38cristal_fnt.jpg" class="d-block w-100" alt="Arrocera#38conTapadeCristal">
       </div>
       <div class="carousel-item">
-        <img src="images/arrocera36_fnt.jpg" class="d-block w-100" alt="Arrocera_36">
+        <img src="images/arroceras/df/38cristal_iso.jpg" class="d-block w-100" alt="Arrocera#38conTapadeCristal">
       </div>
       <div class="carousel-item">
-        <img src="images/arrocera36_det.jpg" class="d-block w-100" alt="Arrocera_36">
+        <img src="images/arroceras/df/38cristal_det.jpg" class="d-block w-100" alt="Arrocera#38conTapadeCristal">
       </div>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carousel7" data-bs-slide="prev">
+    <button class="carousel-control-prev" type="button" data-bs-target="#arr8" data-bs-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Previous</span>
     </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carousel7" data-bs-slide="next">
+    <button class="carousel-control-next" type="button" data-bs-target="#arr8" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+    <div class="card-body">
+      <h4 class="card-title">Arrocera #38 con Tapa de Cristal</h4>
+      <p class="card-text">Diametro: -- </br> Altura: -- </br> Capacidad: --</p>
+    </div>
+  </div>
+</div>
+<div class="row justify-content-center">
+<!-- Siguiente 1.3-->
+<div class="card col-12 col-sm-6 col-lg-3" style="width: 25rem; margin: 1.3rem;">
+  <div id="arr9" class="carousel slide carousel-dark" data-bs-ride="false" data-bs-interval="false">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#arr9" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#arr9" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#arr9" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/arroceras/df/36_fnt.jpg" class="d-block w-100" alt="Arrocera#36">
+      </div>
+      <div class="carousel-item">
+        <img src="images/arroceras/df/36_iso.jpg" class="d-block w-100" alt="Arrocera#36">
+      </div>
+      <div class="carousel-item">
+        <img src="images/arroceras/df/36_det.jpg" class="d-block w-100" alt="Arrocera#36">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#arr9" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#arr9" data-bs-slide="next">
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Next</span>
     </button>
   </div>
     <div class="card-body">
       <h4 class="card-title">Arrocera #36</h4>
-    </div>
       <p class="card-text">Diametro: 36cm </br> Altura: 15cm </br> Capacidad: 15 litros / 3.5 kilos</p>
+    </div>
 </div>
-<!-- Siguiente -->
+<!-- Siguiente 2.3-->
 <div class="card" style="width: 25rem; margin: 1.3rem;">
-  <div id="carousel8" class="carousel slide carousel-dark" data-bs-ride="false" data-bs-interval="false">
+  <div id="arr10" class="carousel slide carousel-dark" data-bs-ride="false" data-bs-interval="false">
   <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carousel8" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carousel8" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carousel8" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#arr10" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#arr10" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#arr10" data-bs-slide-to="2" aria-label="Slide 3"></button>
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="images/arrocera34.jpg" class="d-block w-100" alt="Arrocera_34">
+      <img src="images/arroceras/df/34cristal_fnt.jpg" class="d-block w-100" alt="Arrocera#34conTapadeCristal">
     </div>
     <div class="carousel-item">
-      <img src="images/arrocera34_fnt.jpg" class="d-block w-100" alt="Arrocera_34">
+      <img src="images/arroceras/df/34cristal_iso.jpg" class="d-block w-100" alt="Arrocera#34conTapadeCristal">
     </div>
     <div class="carousel-item">
-      <img src="images/arrocera_det.jpg" class="d-block w-100" alt="Arrocera_34">
+      <img src="images/arroceras/df/34cristal_det.jpg" class="d-block w-100" alt="Arrocera#34conTapadeCristal">
     </div>
   </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carousel8" data-bs-slide="prev">
+  <button class="carousel-control-prev" type="button" data-bs-target="#arr10" data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Previous</span>
   </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carousel8" data-bs-slide="next">
+  <button class="carousel-control-next" type="button" data-bs-target="#arr10" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+  <div class="card-body">
+    <h4 class="card-title">Arrocera #34 con Tapa de Cristal</h4>
+    <p class="card-text">Diametro: 34cm </br> Altura: 14cm </br> Capacidad: 13 litros / 3 kilos</p>
+  </div>
+</div>
+<!-- Siguiente3.3 -->
+<div class="card col-12 col-sm-6 col-lg-3" style="width: 25rem; margin: 1.3rem;">
+  <div id="arr11" class="carousel slide carousel-dark" data-bs-ride="false" data-bs-interval="false">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#arr11" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#arr11" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#arr11" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/arroceras/df/34_fnt.jpg" class="d-block w-100" alt="Arrocera#34">
+    </div>
+    <div class="carousel-item">
+      <img src="images/arroceras/df/34_iso.jpg" class="d-block w-100" alt="Arrocera#34">
+    </div>
+    <div class="carousel-item">
+      <img src="images/arroceras/df/34_det.jpg" class="d-block w-100" alt="Arrocera#34">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#arr11" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#arr11" data-bs-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Next</span>
   </button>
 </div>
   <div class="card-body">
     <h4 class="card-title">Arrocera #34</h4>
+    <p class="card-text">Diametro: 34 </br> Altura: 14cm </br> Capacidad: 13 litros / 3 kilos</p>
   </div>
-    <p class="card-text">Diametro: 34cm </br> Altura: 14cm </br> Capacidad: 13 litros / 3 kilos</p>
 </div>
-<!-- Siguiente Faltan fotos de la 32 -->
-<!-- <div class="card" style="width: 25rem; margin: 1.3rem;">
-  <div id="carousel9" class="carousel slide carousel-dark" data-bs-ride="carousel">
+<!-- Siguiente 4-->
+<div class="card col-12 col-sm-6 col-lg-3" style="width: 25rem; margin: 1.3rem;">
+  <div id="arr12" class="carousel slide carousel-dark" data-bs-ride="false" data-bs-interval="false">
   <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carousel9" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carousel9" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carousel9" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#arr12" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#arr12" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#arr12" data-bs-slide-to="2" aria-label="Slide 3"></button>
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="images/arrocera30.jpg" class="d-block w-100" alt="Arrocera_30">
+      <img src="images/arroceras/df/32_fnt.jpg" class="d-block w-100" alt="Arrocera#32">
     </div>
     <div class="carousel-item">
-      <img src="images/arrocera30_fnt.jpg" class="d-block w-100" alt="Arrocera_30">
+      <img src="images/arroceras/df/32_iso.jpg" class="d-block w-100" alt="Arrocera#32">
     </div>
     <div class="carousel-item">
-      <img src="images/arrocera30_det.jpg" class="d-block w-100" alt="Arrocera_30">
+      <img src="images/arroceras/df/32_fnt.jpg" class="d-block w-100" alt="Arrocera#32">
     </div>
   </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carousel9" data-bs-slide="prev">
+  <button class="carousel-control-prev" type="button" data-bs-target="#arr12" data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Previous</span>
   </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carousel9" data-bs-slide="next">
+  <button class="carousel-control-next" type="button" data-bs-target="#arr12" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+  <div class="card-body">
+    <h4 class="card-title">Arrocera #32</h4>
+    <p class="card-text">Diametro: 32cm </br> Altura: 13cm </br> Capacidad: 10 litros / 2.5 kilos</p>
+  </div>
+</div>
+</div>
+<div class="row justify-content-center">
+<!-- Siguiente 1.4-->
+<div class="card col-12 col-sm-6 col-lg-3" style="width: 25rem; margin: 1.3rem;">
+  <div id="arr13" class="carousel slide carousel-dark" data-bs-ride="false" data-bs-interval="false">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#arr13" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#arr13" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#arr13" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/arroceras/df/30_fnt.jpg" class="d-block w-100" alt="Arrocera#30">
+    </div>
+    <div class="carousel-item">
+      <img src="images/arroceras/df/30_iso.jpg" class="d-block w-100" alt="Arrocera#30">
+    </div>
+    <div class="carousel-item">
+      <img src="images/arroceras/df/30_det.jpg" class="d-block w-100" alt="Arrocera#30">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#arr13" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#arr13" data-bs-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Next</span>
   </button>
 </div>
   <div class="card-body">
     <h4 class="card-title">Arrocera #30</h4>
-  </div>
     <p class="card-text">Diametro: 30cm </br> Altura: 12cm </br> Capacidad: 8 litros / 2 kilos</p>
-</div> -->
-<!-- Siguiente -->
-<!-- <div class="card" style="width: 25rem; margin: 1.3rem;">
-  <div id="carousel10" class="carousel slide carousel-dark" data-bs-ride="false" data-bs-interval="false">
+  </div>
+</div>
+<!-- Siguiente 2.4 -->
+<div class="card col-12 col-sm-6 col-lg-3" style="width: 25rem; margin: 1.3rem;">
+  <div id="arr14" class="carousel slide carousel-dark" data-bs-ride="false" data-bs-interval="false">
   <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carousel10" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carousel10" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carousel10" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#arr14" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#arr14" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#arr14" data-bs-slide-to="2" aria-label="Slide 3"></button>
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="images/arrocera28_fnt.jpg" class="d-block w-100" alt="Arrocera_28">
+      <img src="images/arroceras/df/28_fnt.jpg" class="d-block w-100" alt="Arrocera#28">
     </div>
     <div class="carousel-item">
-      <img src="images/arrocera28.jpg" class="d-block w-100" alt="Arrocera_28">
+      <img src="images/arroceras/df/28_iso.jpg" class="d-block w-100" alt="Arrocera#28">
     </div>
     <div class="carousel-item">
-      <img src="images/arrocera28_det.jpg" class="d-block w-100" alt="Arrocera_28">
+      <img src="images/arroceras/df/28_det.jpg" class="d-block w-100" alt="Arrocera#28">
     </div>
   </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carousel10" data-bs-slide="prev">
+  <button class="carousel-control-prev" type="button" data-bs-target="#arr14" data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Previous</span>
   </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carousel10" data-bs-slide="next">
+  <button class="carousel-control-next" type="button" data-bs-target="#arr14" data-bs-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Next</span>
   </button>
 </div>
   <div class="card-body">
     <h4 class="card-title">Arrocera #28</h4>
-  </div>
     <p class="card-text">Diametro: 28cm </br> Altura: 12cm </br> Capacidad: 6 litros / 1.5 kilos</p>
-</div> -->
-<!-- Siguiente -->
-<!-- <div class="card" style="width: 25rem; margin: 1.3rem;">
-  <div id="carouselExampleIndicators" class="carousel slide carousel-dark" data-bs-ride="false" data-bs-interval="false">
+  </div>
+</div>
+<!-- Siguiente 2.4 -->
+<div class="card col-12 col-sm-6 col-lg-3" style="width: 25rem; margin: 1.3rem;">
+  <div id="arr15" class="carousel slide carousel-dark" data-bs-ride="false" data-bs-interval="false">
   <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carousel11" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carousel11" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carousel11" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#arr15" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#arr15" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#arr15" data-bs-slide-to="2" aria-label="Slide 3"></button>
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="images/arrocera26_fnt.jpg" class="d-block w-100" alt="Arrocera_26">
+      <img src="images/arroceras/df/26_fnt.jpg" class="d-block w-100" alt="Arrocera#26">
     </div>
     <div class="carousel-item">
-      <img src="images/arrocera26.jpg" class="d-block w-100" alt="Arrocera_26">
+      <img src="images/arroceras/df/26_iso.jpg" class="d-block w-100" alt="Arrocera#26">
     </div>
     <div class="carousel-item">
-      <img src="images/arrocera26_det.jpg" class="d-block w-100" alt="Arrocera_26">
+      <img src="images/arroceras/df/26_det.jpg" class="d-block w-100" alt="Arrocera#26">
     </div>
   </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carousel11" data-bs-slide="prev">
+  <button class="carousel-control-prev" type="button" data-bs-target="#arr15" data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Previous</span>
   </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carousel11" data-bs-slide="next">
+  <button class="carousel-control-next" type="button" data-bs-target="#arr15" data-bs-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Next</span>
   </button>
 </div>
   <div class="card-body">
     <h4 class="card-title">Arrocera #26</h4>
-  </div>
     <p class="card-text">Diametro: 26cm </br> Altura: 11cm </br> Capacidad: 5 litros / 1 kilo</p>
-</div> -->
-<!-- Siguiente -->
-<!-- <div class="card" style="width: 25rem; margin: 1.3rem;">
-  <div id="carouselExampleIndicators" class="carousel slide carousel-dark" data-bs-ride="false" data-bs-interval="false">
+  </div>
+</div>
+<!-- Siguiente 2.4 -->
+<div class="card col-12 col-sm-6 col-lg-3" style="width: 25rem; margin: 1.3rem;">
+  <div id="arr16" class="carousel slide carousel-dark" data-bs-ride="false" data-bs-interval="false">
   <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#arr16" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#arr16" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#arr16" data-bs-slide-to="2" aria-label="Slide 3"></button>
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="images/arroceras.jpg" class="d-block w-100" alt="...">
+      <img src="images/arroceras/df/24_fnt.jpg" class="d-block w-100" alt="Arrocera#24">
     </div>
     <div class="carousel-item">
-      <img src="images/arroceras.jpg" class="d-block w-100" alt="...">
+      <img src="images/arroceras/df/24_iso.jpg" class="d-block w-100" alt="Arrocera#24">
     </div>
     <div class="carousel-item">
-      <img src="images/arroceras.jpg" class="d-block w-100" alt="...">
+      <img src="images/arroceras/df/24_det.jpg" class="d-block w-100" alt="Arrocera#24">
     </div>
   </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+  <button class="carousel-control-prev" type="button" data-bs-target="#arr16" data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Previous</span>
   </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+  <button class="carousel-control-next" type="button" data-bs-target="#arr16" data-bs-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Next</span>
   </button>
 </div>
   <div class="card-body">
-    <h4 class="card-title">Mega Arrocera</h4>
+    <h4 class="card-title">Arrocera #24</h4>
+    <p class="card-text">Diametro: 24cm </br> Altura: 9cm </br> Capacidad: 4 litros / 750 gramos</p>
   </div>
-    <p class="card-text">Diametro: 70cm </br> Altura: 25cm </br> Capacidad: </br> 96 litros </br> 25 kilos</p>
-</div> -->
-
-        </div>
-      </div>  
-  </main>  
-    <footer id="pie" class="small bg-secondary text-success" style="margin-top: 4rem;">
+</div>
+</div>
+<div class="row justify-content-center">
+  <!-- Siguiente 1.4-->
+  <div class="card col-12 col-sm-6 col-lg-3" style="width: 25rem; margin: 1.3rem;">
+    <div id="arr17" class="carousel slide carousel-dark" data-bs-ride="false" data-bs-interval="false">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#arr17" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#arr17" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#arr17" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/arroceras/df/22_fnt.jpg" class="d-block w-100" alt="Arrocera#22">
+      </div>
+      <div class="carousel-item">
+        <img src="images/arroceras/df/22_iso.jpg" class="d-block w-100" alt="Arrocera#22">
+      </div>
+      <div class="carousel-item">
+        <img src="images/arroceras/df/22_det.jpg" class="d-block w-100" alt="Arrocera#22">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#arr17" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#arr17" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+    <div class="card-body">
+      <h4 class="card-title">Arrocera #22</h4>
+      <p class="card-text">Diametro: 22cm </br> Altura: 8.5cm </br> Capacidad: 3 litros / 500 gramos</p>
+    </div>
+  </div>
+  <!-- Siguiente 2.4 -->
+  <div class="card col-12 col-sm-6 col-lg-3" style="width: 25rem; margin: 1.3rem;">
+    <div id="arr18" class="carousel slide carousel-dark" data-bs-ride="false" data-bs-interval="false">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#arr18" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#arr18" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#arr18" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/arroceras/df/20_fnt.jpg" class="d-block w-100" alt="Arrocera#20">
+      </div>
+      <div class="carousel-item">
+        <img src="images/arroceras/df/20_iso.jpg" class="d-block w-100" alt="Arrocera#20">
+      </div>
+      <div class="carousel-item">
+        <img src="images/arroceras/df/20_det.jpg" class="d-block w-100" alt="Arrocera#20">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#arr18" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#arr18" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+    <div class="card-body">
+      <h4 class="card-title">Arrocera #20</h4>
+      <p class="card-text">Diametro: 20cm </br> Altura: 8cm </br> Capacidad: 2 litros / 400 gramos</p>
+    </div>
+  </div>
+  <!-- Siguiente 2.4 -->
+  <div class="card col-12 col-sm-6 col-lg-3" style="width: 25rem; margin: 1.3rem;">
+    <div id="arr19" class="carousel slide carousel-dark" data-bs-ride="false" data-bs-interval="false">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#arr19" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#arr19" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#arr19" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/arroceras/df/18_fnt.jpg" class="d-block w-100" alt="Arrocera#18">
+      </div>
+      <div class="carousel-item">
+        <img src="images/arroceras/df/18_iso.jpg" class="d-block w-100" alt="Arrocera#18">
+      </div>
+      <div class="carousel-item">
+        <img src="images/arroceras/df/18_det.jpg" class="d-block w-100" alt="Arrocera#218">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#arr19" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#arr19" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+    <div class="card-body">
+      <h4 class="card-title">Arrocera #18</h4>
+      <p class="card-text">Diametro: 18cm </br> Altura: 7cm </br> Capacidad: 1.5 litros / 250 gramos</p>
+    </div>
+  </div>
+  <!-- Siguiente 2.4 -->
+  <div class="card col-12 col-sm-6 col-lg-3" style="width: 25rem; margin: 1.3rem;">
+    <div id="arr20" class="carousel slide carousel-dark" data-bs-ride="false" data-bs-interval="false">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#arr20" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#arr20" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#arr20" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/arroceras/df/16_fnt.jpg" class="d-block w-100" alt="Arrocera#16">
+      </div>
+      <div class="carousel-item">
+        <img src="images/arroceras/df/16_iso.jpg" class="d-block w-100" alt="Arrocera#16">
+      </div>
+      <div class="carousel-item">
+        <img src="images/arroceras/df/16_det.jpg" class="d-block w-100" alt="Arrocera#1">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#arr20" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#arr20" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+    <div class="card-body">
+      <h4 class="card-title">Arrocera #16</h4>
+      <p class="card-text">Diametro: 16cm </br> Altura: 7cm </br> Capacidad: 1.3 litros / 150 gramos</p>
+    </div>
+  </div>
+  </div>
+</div>  
+</main>  
+  <!-- Footer -->
+    <footer id="pie" class="small bg-secondary text-success" style="margin-top: 8rem;">
         <div class="container py-3 py-sm-5">
             <div class="row">
                 <div class="col-12 col-sm-6 col-md-4">
@@ -538,12 +815,33 @@
             </ul>
         </div>
     </footer>
+    
     <!-- Carga de scripts JS -->
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>      
     <script src="js/anime.min.js"></script>
     <script src="js/swiper-bundle.min.js"></script>
-    <script src="js/leaflet.js"></script>
-    <script src="js/mis-scripts-galeria.js"></script>  
+    <script src="js/mis-scripts.js"></script>  
+    <script>
+      //Get the button
+      var mybutton = document.getElementById("myBtn");
+      
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function() {scrollFunction()};
+      
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+      
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+      </script>
 </body>
 </html>

@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Carga de estilos -->
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- CSS de Font Awesome -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- Fuente de google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,700;1,300&display=swap" rel="stylesheet">
+    <!-- Plantilla normalize -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- Icono de navegador -->
+    <link rel="shortcut icon" type="image/png" href="images/192x192.png">
+    <!-- Color de la aplicación -->
+    <meta name="theme-color" content="#ad8fff">
+    <!-- Optimización para movil -->
+    <meta name="MobileOptimized" content="width">  
+    <meta name="HandheldFriendly" content="true">
+    <!-- Meta etiquetas PWA para Apple -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"> 
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-startup-image" href="images/apple-touch-icon.png">
+    <!-- Configuración General PWA -->
+    <!-- <link rel="manifest" href="/manifest.json"> -->
+    <link rel="manifest" href="manifest.webmanifest">
+    <!-- CSS Swiper -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <!-- CSS personalizados -->
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Juegos</title>
+</head>
+<body>
+  <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+    <header>
+      <section id="datos-generales" class="d-md-block">
+        <div class="container-fluid bg-secondary">
+                    <nav id="menu-navegacion" class="row navbar navbar-dark navbar-expand-lg">
+                        <div class="container-fluid bg-secondary">
+                            <a class="navbar-brand" href="index.html"> <img src="images/logo.png" alt="Logo" width="150" height="auto" ></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#contenido"><span class="navbar-toggler-icon"></span>
+                        </button> 
+                        <div id="contenido" class="collapse navbar-collapse ms-md-auto">
+                            <ul class="navbar-nav m-auto">
+                                <li class="nav-item"><a class="nav-link" href="index.html">Nosotros </a></li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                      Doble Fuerte
+                                    </a>
+                                    <ul class="dropdown-menu bg-secondary" aria-labelledby="navbarScrollingDropdown">
+                                      <li ><a class="dropdown-item" href="arrocerasdf.html">Arroceras</a></li>
+                                      <li><a class="dropdown-item" href="vaporerasdf.html">Vaporeras</a></li>
+                                      <li><a class="dropdown-item" href="mediasdf.html">Medias Vaporeras</a></li>
+                                      <li><a class="dropdown-item" href="cazos.html">Cazos</a></li>
+                                      <li><a class="dropdown-item" href="utensilios.html">Utensilios</a></li>
+                                      <li><a class="dropdown-item" href="charolas.html">Charolas</a></li>
+                                      <li><a class="dropdown-item" href="recipientesdf.html">Recipientes</a></li>
+                                      <li><a class="dropdown-item" href="paellerasdf.html">Paelleras</a></li>
+                                      <li><a class="dropdown-item" href="hornos.html">Hornos</a></li>
+                                      <li><a class="dropdown-item" href="ollas.html">Ollas</a></li>
+                                      <li><a class="dropdown-item" href="sartenes.html">Sartenes</a></li>
+                                    </ul>
+                                  </li>
+                                  <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                      Triple Fuerte
+                                    </a>
+                                    <ul class="dropdown-menu bg-secondary" aria-labelledby="navbarScrollingDropdown">
+                                      <li ><a class="dropdown-item" href="arrocerastf.html">Arroceras</a></li>
+                                      <li><a class="dropdown-item" href="vaporerastf.html">Vaporeras</a></li>
+                                      <li><a class="dropdown-item" href="mediastf.html">Medias Vaporeras</a></li>
+                                      <li><a class="dropdown-item" href="cazostf.html">Cazos</a></li>
+                                      <li><a class="dropdown-item" href="comalestf.html">Comales</a></li>
+                                      <li><a class="dropdown-item" href="paellerastf.html">Paelleras</a></li>
+                                      <li><a class="dropdown-item" href="pocillostf.html">Pocillos</a></li>
+                                      <li><a class="dropdown-item" href="mediasollastf.html">Medias Ollas</a></li>
+                                      <li><a class="dropdown-item" href="ollastf.html">Ollas</a></li>
+                                      <li><a class="dropdown-item" href="sartenestf.html">Sartenes</a></li>
+                                      <li><a class="dropdown-item" href="wokstf.html">Woks</a></li>
+                                    </ul>
+                                  </li>
+                                <li class="nav-item"><a class="nav-link" href="baterías.html">Baterías</a></li>
+                                <li class="nav-item"><a class="nav-link" href="juegos.html">Juegos</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#pie">Contacto</a></li>
+                            </ul>                
+                        </div> 
+                </div>
+            </div>
+        </div>
+    </section>
+    </header>
+    <section>
+      <div class="swiper-container mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide" style="background-image: url(images/banner_arroceras_.jpg); background-position: center; background-size: cover; background-repeat: no-repeat;"></div>
+        </div>
+      </div>
+    </section>
+  <section class="col-12">
+    <h1 class="text-center fw-bold">Juegos</h1>
+  </section>
+<!-- botones -->
+<section  id="menu_recipientes" class="container" >
+  <div  class="col-12">
+<div class="btn-group dropdown">
+  <button type="button" class="btn btn-secondary dropdown-toggle bg-secondary"  style="width: auto; font-size: 2rem; border-radius: 1rem; margin-bottom: 3rem;"  data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false">
+    Categorías
+  </button>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item active"  href="#doblefuerte">Doble Fuerte</a></li>
+    <li><a class="dropdown-item" href="#triplefuerte">Triple Fuerte</a></li>
+    <li><a class="dropdown-item" href="#triplefuerteantiadherente">Triple Fuerte </br> con Antiadherente</a></li>
+  </ul>
+</div>
+</div>
+</section>
+<!-- fin botones -->
+<!-- seccion juegos -->
+<main class="container-fluid">
+  <h2 id="doblefuerte" class="text-center fw-bold" style="margin-top: 2rem;">Doble Fuerte</h2>
+          <!-- Imagenes -->
+    <div class="row justify-content-center">
+            <!-- Inicio  1 -->  
+            <div class="card col-12 col-sm-6 col-lg-3" style="width: 25rem; margin: 1.3rem;">
+              <div id="dfjs17" class="carousel slide carousel-dark" data-bs-ride="false" data-bs-interval="false">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#dfjs17" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#dfjs17" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#dfjs17" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="images/hornos/hornomagico30_fn.jpg" class="d-block w-100" alt="JuegoOllasAbombadasSanJuan">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="images/hornos/hornomagico30_is.jpg" class="d-block w-100" alt="JuegoOllasAbombadasSanJuan">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="images/hornos/hornomagico30_de.jpg" class="d-block w-100" alt="JuegoOllasAbombadasSanJuan">
+                    </div>
+                  </div>
+                      <button class="carousel-control-prev" type="button" data-bs-target="#dfjs17" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#dfjs17" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                  </div>
+                  <div class="card-body">
+                    <h4 class="card-title">Juego de 4 Ollas Abombadas "SanJuan"</h4>
+                  </div>
+                  <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button collapsed acc_button_text" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne17" aria-expanded="false" aria-controls="flush-collapseOne">
+                          Olla #16
+                        </button>
+                      </h2>
+                      <div id="flush-collapseOne17" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Capacidad: -- </br> Medidas: --</div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingTwo">
+                        <button class="accordion-button collapsed acc_button_text" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo17" aria-expanded="false" aria-controls="flush-collapseTwo">
+                          Olla #20
+                        </button>
+                      </h2>
+                      <div id="flush-collapseTwo17" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Capacidad: -- </br> Medidas: --</div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button collapsed acc_button_text" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree17" aria-expanded="false" aria-controls="flush-collapseThree">
+                          Olla #24 - #28
+                        </button>
+                      </h2>
+                      <div id="flush-collapseThree17" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Capacidad: -- </br> Medidas: -- </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            <!-- Inicio  2 -->  
+            <div class="card col-12 col-sm-6 col-lg-3" style="width: 25rem; margin: 1.3rem;">
+              <div id="dfjs18" class="carousel slide carousel-dark" data-bs-ride="false" data-bs-interval="false">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#dfjs18" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#dfjs18" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#dfjs18" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="images/juegosbaterias/vaporeras303445_fn.jpg" class="d-block w-100" alt="JuegoOllasSemiAbombadasGemita18_22_26">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="images/juegosbaterias/vaporeras303445_is.jpg" class="d-block w-100" alt="JuegoOllasSemiAbombadasGemita18_22_26">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="images/juegosbaterias/vaporeras303445_de.jpg" class="d-block w-100" alt="JuegoOllasSemiAbombadasGemita18_22_26">
+                    </div>
+                  </div>
+                      <button class="carousel-control-prev" type="button" data-bs-target="#dfjs18" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#dfjs18" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                  </div>
+                  <div class="card-body">
+                    <h4 class="card-title">Juego de 3 Ollas Semi Abombadas "Gemita"</h4>
+                  </div>
+                  <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button collapsed acc_button_text" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne18" aria-expanded="false" aria-controls="flush-collapseOne">
+                          Olla Abombada #18
+                        </button>
+                      </h2>
+                      <div id="flush-collapseOne18" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Capacidad: -- </br> Medidas: --</div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingTwo">
+                        <button class="accordion-button collapsed acc_button_text" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo18" aria-expanded="false" aria-controls="flush-collapseTwo">
+                          Olla Abombada #22
+                        </button>
+                      </h2>
+                      <div id="flush-collapseTwo18" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Capacidad: -- </br> Medidas: --</div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button collapsed acc_button_text" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree18" aria-expanded="false" aria-controls="flush-collapseThree">
+                          Olla Abombada #26
+                        </button>
+                      </h2>
+                      <div id="flush-collapseThree18" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Capacidad: -- </br> Medidas: --</div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+        <!-- Inicio  3 -->  
+        <div class="card col-12 col-sm-6 col-lg-3" style="width: 25rem; margin: 1.3rem;">
+          <div id="dfjs19" class="carousel slide carousel-dark" data-bs-ride="false" data-bs-interval="false">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#dfjs19" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#dfjs19" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#dfjs19" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="images/hornos/hornomagico30_fn.jpg" class="d-block w-100" alt="JuegoJarrasSanPablo1_2_3">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/hornos/hornomagico30_is.jpg" class="d-block w-100" alt="JuegoJarrasSanPablo1_2_3">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/hornos/hornomagico30_de.jpg" class="d-block w-100" alt="JuegoJarrasSanPablo1_2_3">
+                </div>
+              </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#dfjs19" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#dfjs19" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+              </div>
+              <div class="card-body">
+                <h4 class="card-title">Juego de 3 Jarras San Pablo</h4>
+              </div>
+              <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed acc_button_text" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne19" aria-expanded="false" aria-controls="flush-collapseOne">
+                      Jarra San Pablo
+                    </button>
+                  </h2>
+                  <div id="flush-collapseOne19" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Capacidad: 1 litro </br> Medidas: --</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed acc_button_text" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo19" aria-expanded="false" aria-controls="flush-collapseTwo">
+                      Jarra San Pablo
+                    </button>
+                  </h2>
+                  <div id="flush-collapseTwo19" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Capacidad: 2 litros </br> Medidas: -- </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed acc_button_text" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree19" aria-expanded="false" aria-controls="flush-collapseThree">
+                      Jarra San Pablo
+                    </button>
+                  </h2>
+                  <div id="flush-collapseThree19" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Capacidad: 3 litros </br> Medidas: -- </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <!-- Inicio  4 -->  
+          <div class="card col-12 col-sm-6 col-lg-3" style="width: 25rem; margin: 1.3rem;">
+            <div id="dfjs20" class="carousel slide carousel-dark" data-bs-ride="false" data-bs-interval="false">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#dfjs20" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#dfjs20" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#dfjs20" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="images/juegosbaterias/jarra4v_fnt.jpg" class="d-block w-100" alt="Jarracon6Vasos">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/juegosbaterias/jarra4v_iso.jpg" class="d-block w-100" alt="Jarracon6Vasos">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/juegosbaterias/jarra4v_det.jpg" class="d-block w-100" alt="Jarracon6Vasos">
+                  </div>
+                </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#dfjs20" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#dfjs20" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <div class="card-body">
+                  <h4 class="card-title">Juego de Jarra de Aluminio</h4>
+                </div>
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                      <button class="accordion-button collapsed acc_button_text" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne20" aria-expanded="false" aria-controls="flush-collapseOne">
+                        Jarra
+                      </button>
+                    </h2>
+                    <div id="flush-collapseOne20" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">Capacidad: 4 litros </br> Medidas: --</div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingTwo">
+                      <button class="accordion-button collapsed acc_button_text" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo4" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        Vasos
+                      </button>
+                    </h2>
+                    <div id="flush-collapseTwo4" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">6 Piezas</div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <!-- fin grupo -->
+        <div class="row justify-content-center">
+          <!-- Inicio  1 -->  
+          <div class="card col-12 col-sm-6 col-lg-3" style="width: 25rem; margin: 1.3rem;">
+            <div id="dfjs21" class="carousel slide carousel-dark" data-bs-ride="false" data-bs-interval="false">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#dfjs21" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#dfjs21" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#dfjs21" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="images/juegosbaterias/jarra4vpin_fnt.jpg" class="d-block w-100" alt="Jarracon6VasosPintura">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/juegosbaterias/jarra4vpin_iso.jpg" class="d-block w-100" alt="Jarracon6VasosPintura">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/juegosbaterias/jarra4vpin_det.jpg" class="d-block w-100" alt="Jarracon6VasosPintura">
+                  </div>
+                </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#dfjs21" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#dfjs21" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <div class="card-body">
+                  <h4 class="card-title">Juego de Jarra con Vasos con Pintura</h4>
+                </div>
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                      <button class="accordion-button collapsed acc_button_text" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne21" aria-expanded="false" aria-controls="flush-collapseOne">
+                        Jarra
+                      </button>
+                    </h2>
+                    <div id="flush-collapseOne21" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">Capacidad: 4 litros </br> Medidas: --</div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingTwo">
+                      <button class="accordion-button collapsed acc_button_text" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo21" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        Vasos
+                      </button>
+                    </h2>
+                    <div id="flush-collapseTwo21" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">6 Piezas</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+      <!-- fin grupo -->
+      <h2 id="triplefuerte" class="text-center fw-bold" style="margin-top: 2rem;">Triple Fuerte</h2>
+      <div class="row justify-content-center">
+        <!-- Inicio  1 -->  
+        <div class="card col-12 col-sm-6 col-lg-3" style="width: 25rem; margin: 1.3rem;">
+          <div id="dfjs22" class="carousel slide carousel-dark" data-bs-ride="false" data-bs-interval="false">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#dfjs22" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#dfjs22" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#dfjs22" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="images/juegosbaterias/triarroceras_fn.jpg" class="d-block w-100" alt="JuegoOllasConvexas24_30_34">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/juegosbaterias/triarroceras_io.jpg" class="d-block w-100" alt="JuegoOllasConvexas24_30_3">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/juegosbaterias/triarroceras_et.jpg" class="d-block w-100" alt="JuegoOllasConvexas24_30_3">
+                </div>
+              </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#dfjs22" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#dfjs22" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+              </div>
+              <div class="card-body">
+                <h4 class="card-title">Juego de 3 Ollas Convexas</h4>
+              </div>
+              <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed acc_button_text" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne22" aria-expanded="false" aria-controls="flush-collapseOne">
+                      Olla Convexa #24
+                    </button>
+                  </h2>
+                  <div id="flush-collapseOne22" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Capacidad: 8.5 litros </br> Medidas: 24x19.5cm altura</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed acc_button_text" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo22" aria-expanded="false" aria-controls="flush-collapseTwo">
+                      Olla Convexa #30
+                    </button>
+                  </h2>
+                  <div id="flush-collapseTwo22" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Capacidad: 15 litros </br> Medidas: 30x21.5cm altura</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed acc_button_text" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree22" aria-expanded="false" aria-controls="flush-collapseThree">
+                      Olla Convexa #34
+                    </button>
+                  </h2>
+                  <div id="flush-collapseThree22" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Capacidad: 21.6 litros </br> Medidas: 34x24cm altura</div>
+                  </div>
+                </div>
+              </div>
+          </div>
+        <!-- Inicio  2 -->  
+        <div class="card col-12 col-sm-6 col-lg-3" style="width: 25rem; margin: 1.3rem;">
+          <div id="dfjs23" class="carousel slide carousel-dark" data-bs-ride="false" data-bs-interval="false">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#dfjs23" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#dfjs23" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#dfjs23" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="images/juegosbaterias/arroceras_ft.jpg" class="d-block w-100" alt="JuegoOllasJesfer22_26_30">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/juegosbaterias/arroceras_io.jpg" class="d-block w-100" alt="JuegoOllasJesfer22_26_30">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/juegosbaterias/arroceras_dt.jpg" class="d-block w-100" alt="JuegoOllasJesfer22_26_30">
+                </div>
+              </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#dfjs23" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#dfjs23" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+              </div>
+              <div class="card-body">
+                <h4 class="card-title">Juego Ollas Jesfer </h4>
+              </div>
+              <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed acc_button_text" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne23" aria-expanded="false" aria-controls="flush-collapseOne">
+                      Olla Convexa #22
+                    </button>
+                  </h2>
+                  <div id="flush-collapseOne23" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Capacidad: 6 litros </br> Medidas: 22x16cm altura</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed acc_button_text" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo23" aria-expanded="false" aria-controls="flush-collapseTwo">
+                      Olla Convexa #26
+                    </button>
+                  </h2>
+                  <div id="flush-collapseTwo23" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Capacidad: 11.3 litros </br> Medidas: 26x21.5cm altura</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed acc_button_text" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree23" aria-expanded="false" aria-controls="flush-collapseThree">
+                      Olla Convexa #30
+                    </button>
+                  </h2>
+                  <div id="flush-collapseThree23" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Capacidad: 15 litros </br> Medidas: 30x21.5cm altura </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    <!-- Inicio  3 -->  
+    <h2 id="triplefuerteantiadherente" class="text-center fw-bold" style="margin-top: 2rem;">Triple Fuerte con Anteadherente</h2>
+    <div class="row justify-content-center">
+    <div class="card col-12 col-sm-6 col-lg-3" style="width: 25rem; margin: 1.3rem;">
+      <div id="dfjs24" class="carousel slide carousel-dark" data-bs-ride="false" data-bs-interval="false">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#dfjs24" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#dfjs24" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#dfjs24" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/juegosbaterias/teflonpintura_fnt.jpg" class="d-block w-100" alt="JuegoSartenesconTeflonyPintura">
+            </div>
+            <div class="carousel-item">
+              <img src="images/juegosbaterias/teflonpintura_iso.jpg" class="d-block w-100" alt="JuegoSartenesconTeflonyPintura">
+            </div>
+            <div class="carousel-item">
+              <img src="images/juegosbaterias/teflonpintura_det.jpg" class="d-block w-100" alt="JuegoSartenesconTeflonyPintura">
+            </div>
+          </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#dfjs24" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#dfjs24" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+          </div>
+          <div class="card-body">
+            <h4 class="card-title">Juego de 3 Sartenes con Teflón y Pintura</h4>
+          </div>
+          <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed acc_button_text" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne24" aria-expanded="false" aria-controls="flush-collapseOne">
+                  Sartén #28
+                </button>
+              </h2>
+              <div id="flush-collapseOne24" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Diámetro: 28cm </br> Medidas: 6cm altura</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed acc_button_text" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo24" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  Sartén #24
+                </button>
+              </h2>
+              <div id="flush-collapseTwo24" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Diámetro: 24cm </br> Medidas: 6cm altura</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed acc_button_text" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree24" aria-expanded="false" aria-controls="flush-collapseThree">
+                  Sartén 20
+                </button>
+              </h2>
+              <div id="flush-collapseThree24" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Diámetro: 20cm </br> Medidas: 4.8cm altura </div>
+              </div>
+            </div>
+          </div>
+      </div>
+      <!-- Inicio  4 -->  
+      <div class="card col-12 col-sm-6 col-lg-3" style="width: 25rem; margin: 1.3rem;">
+        <div id="dfjs25" class="carousel slide carousel-dark" data-bs-ride="false" data-bs-interval="false">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#dfjs25" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#dfjs25" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#dfjs25" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/juegosbaterias/tabasco_fnt.jpg" class="d-block w-100" alt="JuegoArrocerasTeflon26_30_34Tabasco">
+              </div>
+              <div class="carousel-item">
+                <img src="images/juegosbaterias/tabasco_iso.jpg" class="d-block w-100" alt="JuegoArrocerasTeflon26_30_34Tabasco">
+              </div>
+              <div class="carousel-item">
+                <img src="images/juegosbaterias/tabasco_det.jpg" class="d-block w-100" alt="JuegoArrocerasTeflon26_30_34Tabasco">
+              </div>
+            </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#dfjs25" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#dfjs25" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <div class="card-body">
+              <h4 class="card-title"> Juegode 3 Arroceras con Teflon Tabasco</h4>
+            </div>
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingOne">
+                  <button class="accordion-button collapsed acc_button_text" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne25" aria-expanded="false" aria-controls="flush-collapseOne">
+                    Arrocera #26
+                  </button>
+                </h2>
+                <div id="flush-collapseOne25" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Capacidad: 1 kilos </br> Medidas: 26x11cm altura</div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingTwo">
+                  <button class="accordion-button collapsed acc_button_text" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo25" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    Arrocera #30
+                  </button>
+                </h2>
+                <div id="flush-collapseTwo25" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Capacidad: 1.5 kilos </br> Medidas: 30x12cm altura</div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingThree">
+                  <button class="accordion-button collapsed acc_button_text" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree25" aria-expanded="false" aria-controls="flush-collapseThree">
+                    Arrocera #34
+                  </button>
+                </h2>
+                <div id="flush-collapseThree25" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Capacidad: 3 kilos </br> Medidas: 34x14cm altura</div>
+                </div>
+              </div>
+            </div>
+        </div>
+        <!-- inicio -->
+        <div class="card col-12 col-sm-6 col-lg-3" style="width: 25rem; margin: 1.3rem;">
+          <div id="dfjs26" class="carousel slide carousel-dark" data-bs-ride="false" data-bs-interval="false">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#dfjs26" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#dfjs26" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#dfjs26" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="images/juegosbaterias/esperanza_fnt.jpg" class="d-block w-100" alt="JuegoAerocerasconTeflon24_28_32Esperanza">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/juegosbaterias/esperanza_iso.jpg" class="d-block w-100" alt="JuegoAerocerasconTeflon24_28_32Esperanza">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/juegosbaterias/esperanza_det.jpg" class="d-block w-100" alt="JuegoAerocerasconTeflon24_28_32Esperanza">
+                </div>
+              </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#dfjs26" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#dfjs26" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+              </div>
+              <div class="card-body">
+                <h4 class="card-title">Juego de 3 Arroceras con Teflón Esperanza</h4>
+              </div>
+              <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed acc_button_text" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne26" aria-expanded="false" aria-controls="flush-collapseOne">
+                      Arrocera #24
+                    </button>
+                  </h2>
+                  <div id="flush-collapseOne26" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Capacidad: 1 kilo </br> Medidas: 294x9cm altura</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed acc_button_text" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo26" aria-expanded="false" aria-controls="flush-collapseTwo">
+                      Arrocera #28
+                    </button>
+                  </h2>
+                  <div id="flush-collapseTwo26" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Capacidad: 1.5 kilos </br> Medidas: 28x12cm altura</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed acc_button_text" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree26" aria-expanded="false" aria-controls="flush-collapseThree">
+                      Arrocera #32
+                    </button>
+                  </h2>
+                  <div id="flush-collapseThree26" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Capacidad: 3 kilos </br> Medidas: 32x13cm altura </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+    </div>
+    <!-- fin grupo -->
+</main>  
+<!--paginación-->
+<nav aria-label="Page navigation example">
+  <ul class="pagination justify-content-center">
+    <li class="page-item"><a class="page-link pagina" href="juegos.html">1</a></li>
+    <li class="page-item"><a class="page-link pagina" href="juegospg2.html">2</a></li>
+  </ul>
+</nav>
+  <!-- Footer -->
+    <footer id="pie" class="small bg-secondary text-success" style="margin-top: 4rem;">
+        <div class="container py-3 py-sm-5">
+            <div class="row">
+                <div class="col-12 col-sm-6 col-md-4">
+                    <h6>Enlaces rápidos</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html">Nosotros</a></li>
+                        <li><a href="#promo">Promociones</a></li>                
+                        <li><a href="#pie">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4">
+                    <h6>Teléfonos</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="tel:+5522078111"><i class="fas fa-fw fa-phone"></i> (55) 2207 8111</a></li>
+                        <li><a href="tel:+5531882910"><i class="fas fa-fw fa-phone"></i> (55) 3188 2910</a></li>
+                        <li><a href="https://www.facebook.com/www.aluminioelpalacio.com.mx/"><i class="fab fa-facebook-f"></i> Facebook</a></li>
+                        <li><a href="mailto:contacto@aluminioelpalacio.com.mx"><i class="fas fa-fw fa-envelope"></i> Contáctanos</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3">
+                    <h6>Ubicación</h6>
+                    <address>
+                        <strong>Calle Cerro del Chiquihuite # 16</strong><br>Manzana 144, C.P.07110, Col. Lomas de Chapultepec, Gustavo a Madero, Ciudad de México<br>
+                    </address>
+                </div>
+            </div>
+            <ul class="list-inline mt-2 mb-0 text-center">
+                <li class="list-inline-item">&copy; 2021 </li>
+                <li class="list-inline-item">All rights reserved.</li>
+            </ul>
+        </div>
+    </footer>
+    
+    <!-- Carga de scripts JS -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>      
+    <script src="js/anime.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/leaflet.js"></script>
+    <script src="js/mis-scripts.js"></script>
+    <script>
+      //Get the button
+      var mybutton = document.getElementById("myBtn");
+      
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function() {scrollFunction()};
+      
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+      
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+      </script>  
+</body>
+</html>

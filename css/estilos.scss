@@ -213,9 +213,7 @@ h6{
         background-repeat: no-repeat;
         background-color: white;
     }
-.card-body {
-    background-color: re;
-}
+
 .razon{
     border:none;
 }  
@@ -337,6 +335,14 @@ h6{
   .activo{
     background-color:$secundario;
     opacity: .5;
+ }
+
+/*=========================
+ 10. Acordion
+ ==========================*/
+
+ .acc_button_text {
+     font-size: 2rem;
  }
 
 

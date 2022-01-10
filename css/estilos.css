@@ -104,6 +104,12 @@ h6 {
   background-size: cover;
 }
 
+#colors img {
+  width: auto;
+  display: block;
+  margin: auto;
+}
+
 .swiper-slide img {
   display: block;
   width: auto;

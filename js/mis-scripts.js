@@ -24,36 +24,17 @@ var swiper = new Swiper(".mySwiper_df", {
   },
 });
 
-// var swiper = new Swiper(".mySwiper3", {
-//   effect: "flip",
-//   grabCursor: true,
-//   autoplay: {
-//     delay: 2500,
-//     disableOnInteraction: false,
-//     },
-//   pagination: {
-//     el: ".swiper-pagination",
-//   },
-//   navigation: {
-//     nextEl: ".swiper-button-next",
-//     prevEl: ".swiper-button-prev",
-//   },
-// });
-
 var swiper = new Swiper(".mySwiper3", {
   effect: "flip",
-  grabCursor: true,
-  pagination: {
-    el: ".swiper-pagination",
-  },
-  autoplay: {
-    delay: 2000,
-    loop: true,
-  },
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
-  },
+        grabCursor: true,
+        autoplay: {
+          delay: 1500,
+          disableOnInteraction: false,
+          loop: true,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+        },  
 });
 
 var el = document.querySelector('.artesanal');

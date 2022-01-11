@@ -18,7 +18,7 @@
     <!-- Icono de navegador -->
     <link rel="shortcut icon" type="image/png" href="images/192x192.png">
     <!-- Color de la aplicación -->
-    <meta name="theme-color" content="#ad8fff">
+    <meta name="theme-color" content="#00246f">
     <!-- Optimización para movil -->
     <meta name="MobileOptimized" content="width">  
     <meta name="HandheldFriendly" content="true">
@@ -31,8 +31,6 @@
     <link rel="manifest" href="manifest.webmanifest">
     <!-- CSS Swiper -->
     <link rel="stylesheet" href="css/swiper-bundle.min.css">
-    <!-- CSS leaflet -->
-    <link rel="stylesheet" href="css/leaflet.css">
     <!-- CSS personalizados -->
     <link rel="stylesheet" href="css/estilos.css">
     <title>Aluminio el Palacio</title>
@@ -114,6 +112,11 @@
                 <p style="text-align: center; font-size: 2rem; margin-bottom: 1rem; padding-left: 3rem; padding-right: 3rem;" >Somos una empresa mexicana dedicada a la fabricación y comercialización de artículos para cocina de aluminio de alta calidad, contamos con más de 20 años en el mercado satisfaciendo las necesidades de nuestros clientes, nuestra calidad nos distingue y nos ha llevado por toda la Republica Mexicana, parte de Centroamérica y Estados Unidos.
                 </br></br>
                 Fabricamos artículos de la mas alta calidad, siempre innovando, siempre a la vanguardia y siempre adaptándonos a la necesidad de cada uno de nuestros clientes.</p>
+                <div class="container col-lg-6 col-md-6 col-sm-12">
+                    <div class="row" style="margin: 5rem; margin-bottom: 8rem;">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/ISMpjz5Gchs" title="Aluminio el Palacio" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
                 <div>
                 <h2 class="text-center fw-bold" style="margin-top: 1rem; margin-bottom: 1.5rem;">¿Por qué elegir nuestros productos?</h2>
                 <div class="col-12">
@@ -171,12 +174,10 @@
                 </div>             
             </div>
         </div> 
-        <div>
-        </div>
         <!-- Swiper -->
-    <div id="colores" class="col-12 swiper mySwiper3 container" style="margin: 3rem;">
+    <div id="colores" class="col-12 swiper mySwiper3 container-fluid text-center" style="margin: 3rem;">
         <h2 class="text-center fw-bold" style="margin-top: 1rem; margin-bottom: 3rem;">Fabricamos toda nuestra línea doble fuerte en diversos colores</h2>
-        <div id="colors" class="swiper-wrapper container">
+        <div id="colors" class="swiper-wrapper container-fluid img-fluid">
           <div class="swiper-slide">
             <img src="images/colores_1.jpg">
           </div>
@@ -198,12 +199,12 @@
         <h2 class="text-center fw-bold" style="padding-top: 2rem; margin-top: 3rem;">Nuestros Valores</h2>
         <img src="images/valoresgrs.png" class="img-fluid container-fluid" style="max-height: auto;" alt="valores">
     </section>
-    <section class="container"  style="margin-top: 2rem;">
+    <section class="container"  style="margin-top: 2rem; margin-bottom: 4rem;">
         <div class="row">
             <div class="col-12 col-lg-6 col-md-12 col-sm-12">
                 <div class="razon card h-100">                                      
                     <div class="card-body text-center d-grid"> 
-                        <h3 class="card-title text-secondary" style="font-weight: bold;">Misión</h3>
+                        <h3 class="card-title text-secondary" style="font-weight: bold; margin-top: 3rem; ">Misión</h3>
                         <div class="card-text">Proporcionar a nuestros clientes soluciones inmediatas con productos de aluminio de calidad total, superando sus expectativas de inmediato, a través de un equipo de trabajo comprometido a mejorar día a día; y de está forma permanecer y alcanzar mayor presencia en el medio.   
                         </div>
                     </div>
@@ -212,18 +213,14 @@
             <div class="col-12 col-lg-6 col-md-12 col-sm-12">
                 <div class="razon card h-100">                                      
                     <div class="card-body text-center d-grid"> 
-                        <h3 class="card-title text-secondary" style="font-weight: bold" >Visión</h3>
+                        <h3 class="card-title text-secondary" style="font-weight: bold; margin-top: 3rem;" >Visión</h3>
                         <div class="card-text"> Ser una empresa reconocida en el mercado nacional e internacional, basándonos en la mejora continua, en nuestros procesos de fabricación logística y atención al cliente. Siempre con la mentalidad de continuar innovando y demostrando que la calidad es la que nos distingue de los demás
                         </div>
                     </div>
                 </div>
             </div> 
         </div>    
-        <div class="container col-lg-6 col-md-6 col-sm-12">
-            <div class="row" style="margin: 5rem; margin-bottom: 8rem;">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/ISMpjz5Gchs" title="Aluminio el Palacio" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-        </div>
+
     </section> 
     <footer id="pie" class="small bg-secondary text-success">
         <div class="container py-3 py-sm-5">
@@ -262,7 +259,6 @@
     <script src="js/bootstrap.bundle.min.js"></script>      
     <script src="js/anime.min.js"></script>
     <script src="js/swiper-bundle.min.js"></script>
-    <script src="js/leaflet.js"></script>
     <script src="js/mis-scripts.js"></script> 
 </body>
 </html>
